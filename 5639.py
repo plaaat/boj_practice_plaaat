@@ -1,11 +1,32 @@
-import bisect
 import sys
-input = sys.stdin.readline
+input = lambda:sys.stdin.readline()
+sys.setrecursionlimit(10**6)
 
-li = []
+nli = []
 while True:
     try:
-        bisect.bisect_left(li,int(input()))
-    except:
-        while li:
-            
+        n = int(input())
+        nli.append(n)
+    except:break
+
+def fin(li):
+    lli = len(li)
+    if lli == 0:
+        return
+    left = []
+    right = []
+    mid = li[0]
+    tf = True
+    for i in range(1,lli):
+        if li[i] > mid:
+            left = li[1:i]
+            right = li[i:]
+            tf = False
+            break
+    if tf:
+        left = li[1:]
+    fin(left)
+    fin(right)
+    print(mid)
+
+fin(nli)
