@@ -1,26 +1,33 @@
 import sys
 import heapq
 
+input = lambda:sys.stdin.readline().rstrip()
 n,m = map(int,input().split())
 s = int(input())
-dic = [[] for _ in range(n+1)]
+li = {}
+num = [float('inf') for _ in range(n+1)]
+num[s] = 0
 for _ in range(m):
     a,b,c = map(int,input().split())
-    dic[a].append([c,b])
+    if a in li:
+        li[a].append((b,c))
+    else:
+        li[a] = [(b,c)]
 
 q = []
-q.append([0,s])
-cost_list = [float('inf')]*(n+1)
-
+heapq.heappush(q,(0,s))
 while q:
-    cost,node = heapq.heappop(q)
-    if node >= 10:
-        print(cost)
-        break
-    if cost > cost_list[node]:
+    co,di = heapq.heappop(q)
+    if num[di] < co or not di in li:
         continue
-    for c,i in dic[node]:
-        newc = cost+c
-        if newc<cost_list[i]:
-            cost_list[i] = newc
-            heapq.heappush(q,[newc,i])
+    for i in li[di]:
+        teco = co+i[1]
+        if teco<num[i[0]]:
+            heapq.heappush(q,(teco,i[0]))
+            num[i[0]] = teco
+
+for i in num[1:]:
+    if i == float('inf'):
+        print('INF')
+    else:
+        print(i)

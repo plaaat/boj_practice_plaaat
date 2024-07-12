@@ -1,0 +1,2 @@
+wo = input()
+print(wo+'!!?')
