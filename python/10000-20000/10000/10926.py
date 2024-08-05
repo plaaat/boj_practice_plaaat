@@ -1,2 +1,0 @@
-wo = input()
-print(wo+'!!?')
