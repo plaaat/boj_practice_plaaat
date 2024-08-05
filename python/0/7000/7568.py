@@ -1,17 +1,17 @@
-import sys
-input = sys.stdin.readline
-N = int(input())
-li = []
-
-for _ in range(N):
-    w, h = map(int, input().split())
-    li.append((w, h))
-
-rank = [1] * N
-
-for i in range(N):
-    for j in range(N):
-        if li[i][0] < li[j][0] and li[i][1] < li[j][1]:
-            rank[i] += 1
-
-print(*rank)#  Á¦Ãâ ¹øÈ£ : 79654243, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+import sys
+input = sys.stdin.readline
+N = int(input())
+li = []
+
+for _ in range(N):
+    w, h = map(int, input().split())
+    li.append((w, h))
+
+rank = [1] * N
+
+for i in range(N):
+    for j in range(N):
+        if li[i][0] < li[j][0] and li[i][1] < li[j][1]:
+            rank[i] += 1
+
+print(*rank)#  ì œì¶œ ë²ˆí˜¸ : 79654243, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

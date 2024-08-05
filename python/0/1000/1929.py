@@ -1,13 +1,13 @@
-import sys
-input = sys.stdin.readline
-m, n = map(int, input().split())
-for i in range(m, n + 1):
-    if i == 1:
-        continue
-    a = True
-    for j in range(2, int(i**(1/2) + 1)):
-        if i % j == 0:
-            a = False
-            break
-    if a:
-        print(i)#  Á¦Ãâ ¹øÈ£ : 79654116, ¸Þ¸ð¸® : 31120, ½Ã°£ : 5320
+import sys
+input = sys.stdin.readline
+m, n = map(int, input().split())
+for i in range(m, n + 1):
+    if i == 1:
+        continue
+    a = True
+    for j in range(2, int(i**(1/2) + 1)):
+        if i % j == 0:
+            a = False
+            break
+    if a:
+        print(i)#  ì œì¶œ ë²ˆí˜¸ : 79654116, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 5320

@@ -1,7 +1,7 @@
-a,b,c = map(int,input().split())
-if max(a,c) > b:
-    print('Bus')
-elif max(a,c) == b:
-    print('Anything')
-else:
-    print('Subway')#  Á¦Ãâ ¹øÈ£ : 81175827, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+a,b,c = map(int,input().split())
+if max(a,c) > b:
+    print('Bus')
+elif max(a,c) == b:
+    print('Anything')
+else:
+    print('Subway')#  ì œì¶œ ë²ˆí˜¸ : 81175827, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

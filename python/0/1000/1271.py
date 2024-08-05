@@ -1,3 +1,3 @@
-a,b = map(int,input().split())
-print(a//b)
-print(a%b)#  Á¦Ãâ ¹øÈ£ : 79686345, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+a,b = map(int,input().split())
+print(a//b)
+print(a%b)#  ì œì¶œ ë²ˆí˜¸ : 79686345, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

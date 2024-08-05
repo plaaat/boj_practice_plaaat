@@ -1,11 +1,11 @@
-a = int(input())
-b = int(input())
-
-if(a > 0 and b > 0):
-  print("1")
-elif(a < 0 and b > 0):
-  print("2")
-elif(a < 0 and b < 0):
-  print("3")
-else:
-  print("4")#  Á¦Ãâ ¹øÈ£ : 79659387, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+a = int(input())
+b = int(input())
+
+if(a > 0 and b > 0):
+  print("1")
+elif(a < 0 and b > 0):
+  print("2")
+elif(a < 0 and b < 0):
+  print("3")
+else:
+  print("4")#  ì œì¶œ ë²ˆí˜¸ : 79659387, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

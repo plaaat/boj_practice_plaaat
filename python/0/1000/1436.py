@@ -1,14 +1,14 @@
-import sys
-input = sys.stdin.readline
-
-a = int(input())
-count = 0
-number = 0
-while True:
-  number+=1
-  e = str(number)
-  if '666' in e:
-    count+=1
-  if count == a:
-    print(number)
-    break#  Á¦Ãâ ¹øÈ£ : 79654028, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 752
+import sys
+input = sys.stdin.readline
+
+a = int(input())
+count = 0
+number = 0
+while True:
+  number+=1
+  e = str(number)
+  if '666' in e:
+    count+=1
+  if count == a:
+    print(number)
+    break#  ì œì¶œ ë²ˆí˜¸ : 79654028, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 752

@@ -1,9 +1,9 @@
-a = int(input())
-if a<425:print('Violet')
-elif a<450:print('Indigo')
-elif a<495:print('Blue')
-elif a<570:print('Green')
-elif a<590:print('Yellow')
-elif a<620:print('Orange')
-else:print('Red')
-#  Á¦Ãâ ¹øÈ£ : 80106091, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 44
+a = int(input())
+if a<425:print('Violet')
+elif a<450:print('Indigo')
+elif a<495:print('Blue')
+elif a<570:print('Green')
+elif a<590:print('Yellow')
+elif a<620:print('Orange')
+else:print('Red')
+#  ì œì¶œ ë²ˆí˜¸ : 80106091, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

@@ -1,10 +1,10 @@
-import sys
-input = sys.stdin.readline
-
-n,m = map(int,input().split())
-pw = {}
-for _ in range(n):
-  s,p = input().strip().split()
-  pw[s] = p
-for _ in range(m):
-  print(pw.get(input().strip()))#  Á¦Ãâ ¹øÈ£ : 79650079, ¸Þ¸ð¸® : 49208, ½Ã°£ : 232
+import sys
+input = sys.stdin.readline
+
+n,m = map(int,input().split())
+pw = {}
+for _ in range(n):
+  s,p = input().strip().split()
+  pw[s] = p
+for _ in range(m):
+  print(pw.get(input().strip()))#  ì œì¶œ ë²ˆí˜¸ : 79650079, ë©”ëª¨ë¦¬ : 49208, ì‹œê°„ : 232

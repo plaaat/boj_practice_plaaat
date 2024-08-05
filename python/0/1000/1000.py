@@ -1,4 +1,4 @@
-val = input().split()
-a = int(val[0])
-b = int(val[1])
-print(a+b)#  Á¦Ãâ ¹øÈ£ : 79659509, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+val = input().split()
+a = int(val[0])
+b = int(val[1])
+print(a+b)#  ì œì¶œ ë²ˆí˜¸ : 79659509, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

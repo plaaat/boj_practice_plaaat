@@ -1,4 +1,4 @@
-pac = 1
-for i in range(1, int(input()), 1):
-  pac *= i+1
-print(pac)#  Á¦Ãâ ¹øÈ£ : 79659318, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+pac = 1
+for i in range(1, int(input()), 1):
+  pac *= i+1
+print(pac)#  ì œì¶œ ë²ˆí˜¸ : 79659318, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,10 +1,10 @@
-def s(a, b, v):
-    r = v - a
-    d = a - b
-    n = r // d
-    if r % d != 0:
-        n += 1
-    return n + 1
-
-a, b, v = map(int, input().split())
-print(s(a, b, v))#  Á¦Ãâ ¹øÈ£ : 79658481, ¸Þ¸ð¸® : 108080, ½Ã°£ : 112
+def s(a, b, v):
+    r = v - a
+    d = a - b
+    n = r // d
+    if r % d != 0:
+        n += 1
+    return n + 1
+
+a, b, v = map(int, input().split())
+print(s(a, b, v))#  ì œì¶œ ë²ˆí˜¸ : 79658481, ë©”ëª¨ë¦¬ : 108080, ì‹œê°„ : 112

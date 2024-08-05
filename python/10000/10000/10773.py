@@ -1,12 +1,12 @@
-import sys
-from collections import deque
-input = sys.stdin.readline
-a = deque()
-for i in range(int(input())):
-  b = int(input())
-  if b != 0:
-    a.appendleft(b)
-  else:
-    a.popleft()
-print(sum(a))
-#  Á¦Ãâ ¹øÈ£ : 79654087, ¸Þ¸ð¸® : 34008, ½Ã°£ : 100
+import sys
+from collections import deque
+input = sys.stdin.readline
+a = deque()
+for i in range(int(input())):
+  b = int(input())
+  if b != 0:
+    a.appendleft(b)
+  else:
+    a.popleft()
+print(sum(a))
+#  ì œì¶œ ë²ˆí˜¸ : 79654087, ë©”ëª¨ë¦¬ : 34008, ì‹œê°„ : 100

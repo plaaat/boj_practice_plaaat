@@ -1,3 +1,3 @@
-b = [int(input()) for _ in range(3)]
-d = [int(input()) for _ in range(2)]
-print(min(b)+min(d)-50)#  Á¦Ãâ ¹øÈ£ : 81783573, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+b = [int(input()) for _ in range(3)]
+d = [int(input()) for _ in range(2)]
+print(min(b)+min(d)-50)#  ì œì¶œ ë²ˆí˜¸ : 81783573, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

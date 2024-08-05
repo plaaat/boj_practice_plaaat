@@ -1,4 +1,4 @@
-n = int(input())
-for _ in range(n):
-    w = input()
-    print(w.lower())#  Á¦Ãâ ¹øÈ£ : 81322188, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+n = int(input())
+for _ in range(n):
+    w = input()
+    print(w.lower())#  ì œì¶œ ë²ˆí˜¸ : 81322188, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

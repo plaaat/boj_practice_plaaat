@@ -1,3 +1,3 @@
-t = int(input())
-for i in range(1,t+1):
-    print(f'{i}.',input())#  Á¦Ãâ ¹øÈ£ : 81618540, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+t = int(input())
+for i in range(1,t+1):
+    print(f'{i}.',input())#  ì œì¶œ ë²ˆí˜¸ : 81618540, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

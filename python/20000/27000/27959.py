@@ -1,6 +1,6 @@
-n,m = map(int,input().split())
-
-if n*100 < m:
-    print('No')
-else:
-    print('Yes')#  Á¦Ãâ ¹øÈ£ : 80438250, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+n,m = map(int,input().split())
+
+if n*100 < m:
+    print('No')
+else:
+    print('Yes')#  ì œì¶œ ë²ˆí˜¸ : 80438250, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

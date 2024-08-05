@@ -1,21 +1,21 @@
-import sys
-
-input = lambda: sys.stdin.readline().rstrip()
-
-for _ in range(int(input())):
-
-  li = [1,1,1,2,2]
-
-  n = int(input())
-
-  if n<=5:
-
-    print(li[n-1])
-
-  else:
-
-    while len(li) != n:
-
-      li.append(li[-1]+li[-5])
-
-    print(li[-1])#  Á¦Ãâ ¹øÈ£ : 79649851, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+import sys
+
+input = lambda: sys.stdin.readline().rstrip()
+
+for _ in range(int(input())):
+
+  li = [1,1,1,2,2]
+
+  n = int(input())
+
+  if n<=5:
+
+    print(li[n-1])
+
+  else:
+
+    while len(li) != n:
+
+      li.append(li[-1]+li[-5])
+
+    print(li[-1])#  ì œì¶œ ë²ˆí˜¸ : 79649851, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

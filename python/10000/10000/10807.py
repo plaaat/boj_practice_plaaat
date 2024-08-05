@@ -1,3 +1,3 @@
-a = int(input())
-b = list(map(int,input().split()))
-print(b.count(int(input())))#  Á¦Ãâ ¹øÈ£ : 79659203, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 48
+a = int(input())
+b = list(map(int,input().split()))
+print(b.count(int(input())))#  ì œì¶œ ë²ˆí˜¸ : 79659203, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

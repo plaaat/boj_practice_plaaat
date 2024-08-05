@@ -1,6 +1,6 @@
-li = [1,1,2,2,2,8]
-pl = list(map(int,input().split()))
-p = []
-for i in range(6):
-  p.append(li[i]-pl[i])
-print(*p)#  Á¦Ãâ ¹øÈ£ : 79799754, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+li = [1,1,2,2,2,8]
+pl = list(map(int,input().split()))
+p = []
+for i in range(6):
+  p.append(li[i]-pl[i])
+print(*p)#  ì œì¶œ ë²ˆí˜¸ : 79799754, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,15 +1,15 @@
-def main():
-    import sys
-    input = sys.stdin.readline
-    N,X = map(int,input().split())
-    a = list(map(int, input().split()))
-    b = list(map(int, input().split()))
-    sum_b = 0
-    for i in range(N):
-      sum_b+=b[i]
-      if sum_b < a[i]:
-        print(-1)
-        return
-    print((sum_b - a[-1])//X)
-if __name__ == "__main__":
-    main()#  Á¦Ãâ ¹øÈ£ : 79646182, ¸Ş¸ğ¸® : 109752, ½Ã°£ : 352
+def main():
+    import sys
+    input = sys.stdin.readline
+    N,X = map(int,input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    sum_b = 0
+    for i in range(N):
+      sum_b+=b[i]
+      if sum_b < a[i]:
+        print(-1)
+        return
+    print((sum_b - a[-1])//X)
+if __name__ == "__main__":
+    main()#  ì œì¶œ ë²ˆí˜¸ : 79646182, ë©”ëª¨ë¦¬ : 109752, ì‹œê°„ : 352

@@ -1,3 +1,3 @@
-n = int(input())
-for i in range(n):
-  print(n-i)#  Á¦Ãâ ¹øÈ£ : 80120997, ¸Þ¸ð¸® : 31120, ½Ã°£ : 92
+n = int(input())
+for i in range(n):
+  print(n-i)#  ì œì¶œ ë²ˆí˜¸ : 80120997, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 92

@@ -1,22 +1,22 @@
-import sys
-sys.setrecursionlimit(10**7)
-input = lambda: sys.stdin.readline().rstrip()
-
-n,r,c = map(int,input().split())
-num = 0
-
-while n!=0:
-  n-=1
-  if r < 2 ** n and c < 2 ** n:
-    continue
-  elif r < 2**n and c >= 2**n: 
-    num += ( 2 ** n) * ( 2 ** n )
-    c -= ( 2 ** n )
-  elif r >= 2 ** n and c < 2 ** n:
-    num += ( 2 ** n ) * ( 2 ** n ) * 2
-    r -= ( 2 ** n )
-  else:
-	  num += ( 2 ** n ) * ( 2 ** n ) * 3
-	  r -= ( 2 ** n )
-	  c -= ( 2 ** n )
-print(num)#  Á¦Ãâ ¹øÈ£ : 79646734, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 44
+import sys
+sys.setrecursionlimit(10**7)
+input = lambda: sys.stdin.readline().rstrip()
+
+n,r,c = map(int,input().split())
+num = 0
+
+while n!=0:
+  n-=1
+  if r < 2 ** n and c < 2 ** n:
+    continue
+  elif r < 2**n and c >= 2**n: 
+    num += ( 2 ** n) * ( 2 ** n )
+    c -= ( 2 ** n )
+  elif r >= 2 ** n and c < 2 ** n:
+    num += ( 2 ** n ) * ( 2 ** n ) * 2
+    r -= ( 2 ** n )
+  else:
+	  num += ( 2 ** n ) * ( 2 ** n ) * 3
+	  r -= ( 2 ** n )
+	  c -= ( 2 ** n )
+print(num)#  ì œì¶œ ë²ˆí˜¸ : 79646734, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

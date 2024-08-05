@@ -1,5 +1,5 @@
-val = input().split()
-a = int(val[0])
-b = int(val[1])
-c = int(val[2])
-print(a+b+c)#  Á¦Ãâ ¹øÈ£ : 79659439, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+val = input().split()
+a = int(val[0])
+b = int(val[1])
+c = int(val[2])
+print(a+b+c)#  ì œì¶œ ë²ˆí˜¸ : 79659439, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

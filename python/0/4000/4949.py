@@ -1,25 +1,25 @@
-import sys
-input = sys.stdin.readline
-
-while True:
-    line = input()
-    if line[0] == ".":
-        break
-    line.strip()
-    li = []
-    tf = True
-    for i in line:
-        if i == '(' or i == '[':
-            li.append(i)
-        elif i == ')' or i == ']':
-            if not li:
-                tf = False
-                break
-            a = li.pop()
-            if (i == ')' and a != '(') or (i == ']' and a != '['):
-                tf = False
-                break
-    if tf and len(li) == 0:
-        print("yes")
-    else:
-        print("no")#  Á¦Ãâ ¹øÈ£ : 79653967, ¸Þ¸ð¸® : 31120, ½Ã°£ : 84
+import sys
+input = sys.stdin.readline
+
+while True:
+    line = input()
+    if line[0] == ".":
+        break
+    line.strip()
+    li = []
+    tf = True
+    for i in line:
+        if i == '(' or i == '[':
+            li.append(i)
+        elif i == ')' or i == ']':
+            if not li:
+                tf = False
+                break
+            a = li.pop()
+            if (i == ')' and a != '(') or (i == ']' and a != '['):
+                tf = False
+                break
+    if tf and len(li) == 0:
+        print("yes")
+    else:
+        print("no")#  ì œì¶œ ë²ˆí˜¸ : 79653967, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 84

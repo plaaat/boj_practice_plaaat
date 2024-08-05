@@ -1,14 +1,14 @@
-from collections import deque
-import sys
-
-input = sys.stdin.readline
-a = int(input())
-
-c = deque(range(1, a + 1))
-start = 1
-end = a
-
-while len(c) != 1:
-  c.popleft()
-  c.append(c.popleft())
-print(*c)#  Á¦Ãâ ¹øÈ£ : 79654405, ¸Þ¸ð¸® : 120696, ½Ã°£ : 136
+from collections import deque
+import sys
+
+input = sys.stdin.readline
+a = int(input())
+
+c = deque(range(1, a + 1))
+start = 1
+end = a
+
+while len(c) != 1:
+  c.popleft()
+  c.append(c.popleft())
+print(*c)#  ì œì¶œ ë²ˆí˜¸ : 79654405, ë©”ëª¨ë¦¬ : 120696, ì‹œê°„ : 136

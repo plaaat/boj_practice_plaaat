@@ -1,9 +1,9 @@
-n = int(input())
-for i in range(1, n*2+1):
-    if i % 2 == 0:
-        print(' *' * int(n//2))
-    else:
-        if n % 2 == 1:
-            print('* ' * int(n//2) + '*')
-        else:
-            print('* ' * int(n//2))#  Á¦Ãâ ¹øÈ£ : 80439674, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+n = int(input())
+for i in range(1, n*2+1):
+    if i % 2 == 0:
+        print(' *' * int(n//2))
+    else:
+        if n % 2 == 1:
+            print('* ' * int(n//2) + '*')
+        else:
+            print('* ' * int(n//2))#  ì œì¶œ ë²ˆí˜¸ : 80439674, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

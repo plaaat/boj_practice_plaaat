@@ -1,12 +1,12 @@
-li = []
-while True:
-  wo = input()
-  if wo == '#':
-    break
-  li.append(list(wo))
-oh = ('a','e','i','o','u','A','E','I','O','U')
-for i in li:
-  n = 0
-  for j in i:
-    if j in oh:n+=1
-  print(n)#  Á¦Ãâ ¹øÈ£ : 80121140, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+li = []
+while True:
+  wo = input()
+  if wo == '#':
+    break
+  li.append(list(wo))
+oh = ('a','e','i','o','u','A','E','I','O','U')
+for i in li:
+  n = 0
+  for j in i:
+    if j in oh:n+=1
+  print(n)#  ì œì¶œ ë²ˆí˜¸ : 80121140, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

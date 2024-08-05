@@ -1,10 +1,10 @@
-a,b = map(int,input().split())
-if a == 0:
-  if b < 45:
-    print(23, ((b+60)-45))
-  else:
-    print(a, b-45)
-elif b < 45:
-  print((a-1), ((b+60)-45))
-else:
-  print(a, b-45)#  Á¦Ãâ ¹øÈ£ : 79658872, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 44
+a,b = map(int,input().split())
+if a == 0:
+  if b < 45:
+    print(23, ((b+60)-45))
+  else:
+    print(a, b-45)
+elif b < 45:
+  print((a-1), ((b+60)-45))
+else:
+  print(a, b-45)#  ì œì¶œ ë²ˆí˜¸ : 79658872, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

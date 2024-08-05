@@ -1,40 +1,40 @@
-import sys
-input = sys.stdin.readline
-
-n = int(input())
-rn = n**(0.5)
-pl = 4
-
-if rn == int(rn):
-  print(1)
-else:
-  tf = True
-  rn = int(rn)+1
-  while tf:
-    cn = n
-    rn-=1
-    if rn == 0:
-      if pl == 3:
-        print(3)
-      else:
-        print(4)
-      break
-    cn -= rn**2
-    rrn = cn**0.5
-    if rrn == int(rrn):
-      print(2)
-      tf = False
-    else:
-      rrn = int(rrn)+1
-      ttf = True
-      while ttf:
-        ccn = cn
-        rrn-=1
-        ccn -= rrn**2
-        rrrn = ccn**0.5
-        if ccn<0:
-          break
-        elif rrrn == int(rrrn):
-          ttf = False
-          pl = 3
-          break#  Á¦Ãâ ¹øÈ£ : 79650030, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 84
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+rn = n**(0.5)
+pl = 4
+
+if rn == int(rn):
+  print(1)
+else:
+  tf = True
+  rn = int(rn)+1
+  while tf:
+    cn = n
+    rn-=1
+    if rn == 0:
+      if pl == 3:
+        print(3)
+      else:
+        print(4)
+      break
+    cn -= rn**2
+    rrn = cn**0.5
+    if rrn == int(rrn):
+      print(2)
+      tf = False
+    else:
+      rrn = int(rrn)+1
+      ttf = True
+      while ttf:
+        ccn = cn
+        rrn-=1
+        ccn -= rrn**2
+        rrrn = ccn**0.5
+        if ccn<0:
+          break
+        elif rrrn == int(rrrn):
+          ttf = False
+          pl = 3
+          break#  ì œì¶œ ë²ˆí˜¸ : 79650030, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 84

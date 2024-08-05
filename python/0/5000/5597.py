@@ -1,7 +1,7 @@
-a = []
-for i in range(0, 30):
-  a.append(i+1)
-for i in range(28):
-  a.remove(int(input()))
-print(a[0])
-print(a[1])#  Á¦Ãâ ¹øÈ£ : 79659194, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+a = []
+for i in range(0, 30):
+  a.append(i+1)
+for i in range(28):
+  a.remove(int(input()))
+print(a[0])
+print(a[1])#  ì œì¶œ ë²ˆí˜¸ : 79659194, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

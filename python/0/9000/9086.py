@@ -1,7 +1,7 @@
-b = input()
-while True:
-    try:
-        a = input()
-        print(a[0]+a[len(a)-1])
-    except:
-        break#  Á¦Ãâ ¹øÈ£ : 79659104, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+b = input()
+while True:
+    try:
+        a = input()
+        print(a[0]+a[len(a)-1])
+    except:
+        break#  ì œì¶œ ë²ˆí˜¸ : 79659104, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,19 +1,19 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-n,m = map(int,input().split())
-nli = list(map(int,input().split()))
-nli.sort()
-li = []
-def dfs(x):
-  tem = -1
-  if len(li) == m:
-    print(*li)
-    return
-  for i in range(x-1,n):
-    if tem!=nli[i]:
-      li.append(nli[i])
-      tem = nli[i]
-      dfs(i+1)
-      li.pop() 
-dfs(1)#  Á¦Ãâ ¹øÈ£ : 80049725, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 52
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+n,m = map(int,input().split())
+nli = list(map(int,input().split()))
+nli.sort()
+li = []
+def dfs(x):
+  tem = -1
+  if len(li) == m:
+    print(*li)
+    return
+  for i in range(x-1,n):
+    if tem!=nli[i]:
+      li.append(nli[i])
+      tem = nli[i]
+      dfs(i+1)
+      li.pop() 
+dfs(1)#  ì œì¶œ ë²ˆí˜¸ : 80049725, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 52

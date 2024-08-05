@@ -1,11 +1,11 @@
-import sys
-
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-
-for _ in range(n):
-
-  m = round(float(input())/6 ,10)+0.00000000001
-
-  print(str(m)[0:-1])#  Á¦Ãâ ¹øÈ£ : 79641401, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+import sys
+
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+
+for _ in range(n):
+
+  m = round(float(input())/6 ,10)+0.00000000001
+
+  print(str(m)[0:-1])#  ì œì¶œ ë²ˆí˜¸ : 79641401, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

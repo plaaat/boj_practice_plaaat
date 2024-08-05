@@ -1,1 +1,1 @@
-print(*divmod(sum(int(input()) for _ in range(4)), 60), sep="\n")#  Á¦Ãâ ¹øÈ£ : 79684566, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+print(*divmod(sum(int(input()) for _ in range(4)), 60), sep="\n")#  ì œì¶œ ë²ˆí˜¸ : 79684566, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

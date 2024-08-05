@@ -1,12 +1,12 @@
-import sys
-input = sys.stdin.readline
-print = sys.stdout.write
-
-N = int(input())
-a = [0] * 2000001 
-for _ in range(N):
-    b = int(input())
-    a[b + 1000000] += 1  
-for i in range(2000001):
-    if a[i] > 0:
-        print(f"{i - 1000000}\n" * a[i])#  Á¦Ãâ ¹øÈ£ : 79658507, ¸Þ¸ð¸® : 46744, ½Ã°£ : 1072
+import sys
+input = sys.stdin.readline
+print = sys.stdout.write
+
+N = int(input())
+a = [0] * 2000001 
+for _ in range(N):
+    b = int(input())
+    a[b + 1000000] += 1  
+for i in range(2000001):
+    if a[i] > 0:
+        print(f"{i - 1000000}\n" * a[i])#  ì œì¶œ ë²ˆí˜¸ : 79658507, ë©”ëª¨ë¦¬ : 46744, ì‹œê°„ : 1072

@@ -1,10 +1,10 @@
-for i in range(int(input())):
-  a = input()
-  b,c = 0,0
-  for s in range(len(a)):
-    if a[s] == "O":
-      b += 1
-      c += b
-    else:
-      b = 0
-  print(c)#  Á¦Ãâ ¹øÈ£ : 79658760, ¸Þ¸ð¸® : 31120, ½Ã°£ : 52
+for i in range(int(input())):
+  a = input()
+  b,c = 0,0
+  for s in range(len(a)):
+    if a[s] == "O":
+      b += 1
+      c += b
+    else:
+      b = 0
+  print(c)#  ì œì¶œ ë²ˆí˜¸ : 79658760, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 52

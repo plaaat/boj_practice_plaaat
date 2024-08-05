@@ -1,11 +1,11 @@
-import sys
-input = sys.stdin.readline
-a = int(input())
-l = {}
-for _ in range(a):
-    b = input().strip()
-    if b not in l:
-        l[b] = len(b)
-c = sorted(l.keys(), key=lambda x: (len(x), x))
-for i in c:
-    print(i)#  Á¦Ãâ ¹øÈ£ : 79658497, ¸Þ¸ð¸® : 34756, ½Ã°£ : 88
+import sys
+input = sys.stdin.readline
+a = int(input())
+l = {}
+for _ in range(a):
+    b = input().strip()
+    if b not in l:
+        l[b] = len(b)
+c = sorted(l.keys(), key=lambda x: (len(x), x))
+for i in c:
+    print(i)#  ì œì¶œ ë²ˆí˜¸ : 79658497, ë©”ëª¨ë¦¬ : 34756, ì‹œê°„ : 88

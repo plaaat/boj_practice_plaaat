@@ -1,16 +1,16 @@
-import sys
-input = sys.stdin.readline
-
-n = int(input())
-wo = input().strip()
-vis = set([(0,0)])
-dic={'E':(1,0),'W':(-1,0),'N':(0,1),'S':(0,-1)}
-now = (0,0)
-num = 1
-for i in wo:
-    x,y = dic[i]
-    now = (now[0]+x,now[1]+y)
-    if not now in vis:
-        vis.add(now)
-        num+=1
-print(num)#  Á¦Ãâ ¹øÈ£ : 81539311, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+wo = input().strip()
+vis = set([(0,0)])
+dic={'E':(1,0),'W':(-1,0),'N':(0,1),'S':(0,-1)}
+now = (0,0)
+num = 1
+for i in wo:
+    x,y = dic[i]
+    now = (now[0]+x,now[1]+y)
+    if not now in vis:
+        vis.add(now)
+        num+=1
+print(num)#  ì œì¶œ ë²ˆí˜¸ : 81539311, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,14 +1,14 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-dic = {}
-n = int(input())
-for _ in range(n):
-  a,b = input().split()
-  dic[b] = a
-p = "?"
-wo = input()
-for i in wo:
-  p+=dic[i]
-s,e = map(int,input().split())
-print(p[s:e+1])#  Á¦Ãâ ¹øÈ£ : 79641491, ¸Þ¸ð¸® : 34056, ½Ã°£ : 276
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+dic = {}
+n = int(input())
+for _ in range(n):
+  a,b = input().split()
+  dic[b] = a
+p = "?"
+wo = input()
+for i in wo:
+  p+=dic[i]
+s,e = map(int,input().split())
+print(p[s:e+1])#  ì œì¶œ ë²ˆí˜¸ : 79641491, ë©”ëª¨ë¦¬ : 34056, ì‹œê°„ : 276

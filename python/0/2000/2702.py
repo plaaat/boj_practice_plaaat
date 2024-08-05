@@ -1,6 +1,6 @@
-import math
-
-t = int(input())
-for _ in range(t):
-    a,b = map(int,input().split())
-    print(math.lcm(a,b),math.gcd(a,b))#  Á¦Ãâ ¹øÈ£ : 81176345, ¸Þ¸ð¸® : 33240, ½Ã°£ : 84
+import math
+
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+    print(math.lcm(a,b),math.gcd(a,b))#  ì œì¶œ ë²ˆí˜¸ : 81176345, ë©”ëª¨ë¦¬ : 33240, ì‹œê°„ : 84

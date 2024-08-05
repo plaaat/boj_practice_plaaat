@@ -1,9 +1,9 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-n = int(input())
-num = 0
-for i in range(n+1):
-  num+=i
-  for s in range(n+1):
-    num+=s
-print(num)#  Á¦Ãâ ¹øÈ£ : 79646484, ¸Þ¸ð¸® : 31120, ½Ã°£ : 124
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+n = int(input())
+num = 0
+for i in range(n+1):
+  num+=i
+  for s in range(n+1):
+    num+=s
+print(num)#  ì œì¶œ ë²ˆí˜¸ : 79646484, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 124

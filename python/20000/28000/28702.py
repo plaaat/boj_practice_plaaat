@@ -1,13 +1,13 @@
-for i in range(3):
-    x = input()
-    if x not in ['Fizz', 'Buzz', 'FizzBuzz']:
-        n = int(x) + (3-i)
-
-if n%15==0:
-    print('FizzBuzz')
-elif n%3==0:
-    print('Fizz')
-elif n%5==0:
-    print('Buzz')
-else:
-    print(n)#  Á¦Ãâ ¹øÈ£ : 79686116, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+for i in range(3):
+    x = input()
+    if x not in ['Fizz', 'Buzz', 'FizzBuzz']:
+        n = int(x) + (3-i)
+
+if n%15==0:
+    print('FizzBuzz')
+elif n%3==0:
+    print('Fizz')
+elif n%5==0:
+    print('Buzz')
+else:
+    print(n)#  ì œì¶œ ë²ˆí˜¸ : 79686116, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

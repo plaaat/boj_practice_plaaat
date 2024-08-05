@@ -1,12 +1,12 @@
-import sys
-input = sys.stdin.readline
-a = int(input())
-b = []
-for i in range(a):
-    y, n = input().split()
-    y = int(y)
-    b.append([y, i, n])
-b.sort()
-for s in b:
-    print(s[0], s[2])
-#  Á¦Ãâ ¹øÈ£ : 79658552, ¸Þ¸ð¸® : 133376, ½Ã°£ : 368
+import sys
+input = sys.stdin.readline
+a = int(input())
+b = []
+for i in range(a):
+    y, n = input().split()
+    y = int(y)
+    b.append([y, i, n])
+b.sort()
+for s in b:
+    print(s[0], s[2])
+#  ì œì¶œ ë²ˆí˜¸ : 79658552, ë©”ëª¨ë¦¬ : 133376, ì‹œê°„ : 368

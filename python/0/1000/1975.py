@@ -1,21 +1,21 @@
-import sys
-input = sys.stdin.readline
-
-T = int(input())
-results = []
-
-for i in range(1, T + 1):
-    N = int(input())
-    total_zeros = 0
-    
-    for base in range(2, N + 1):
-        count = 0
-        current = N
-        while current % base == 0:
-            current //= base
-            count += 1
-        total_zeros += count
-    
-    results.append(total_zeros)
-print(*results,sep='\n')
-#  Á¦Ãâ ¹øÈ£ : 80440058, ¸Þ¸ð¸® : 116140, ½Ã°£ : 776
+import sys
+input = sys.stdin.readline
+
+T = int(input())
+results = []
+
+for i in range(1, T + 1):
+    N = int(input())
+    total_zeros = 0
+    
+    for base in range(2, N + 1):
+        count = 0
+        current = N
+        while current % base == 0:
+            current //= base
+            count += 1
+        total_zeros += count
+    
+    results.append(total_zeros)
+print(*results,sep='\n')
+#  ì œì¶œ ë²ˆí˜¸ : 80440058, ë©”ëª¨ë¦¬ : 116140, ì‹œê°„ : 776

@@ -1,7 +1,7 @@
-pn = 1
-n,m = map(int,input().split())
-li = list(map(int,input().split()))
-
-for i in li:
-    pn*=(i%m)
-print(pn%m)#  Á¦Ãâ ¹øÈ£ : 80439577, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+pn = 1
+n,m = map(int,input().split())
+li = list(map(int,input().split()))
+
+for i in li:
+    pn*=(i%m)
+print(pn%m)#  ì œì¶œ ë²ˆí˜¸ : 80439577, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

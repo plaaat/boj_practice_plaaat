@@ -1,24 +1,24 @@
-import sys
-input = sys.stdin.readline
-b = []
-for i in range(int(input())):
-  a =  list(input().split())
-  if a[0] == "push":
-    b.append(a[1])
-  elif a[0] == "pop":
-    if len(b) ==0:
-      print("-1")
-    else:
-      print(b.pop(-1))
-  elif a[0] == "empty":
-    if len(b) ==0:
-      print(1)
-    else:
-      print(0)
-  elif a[0] == "size":
-    print(len(b))
-  elif a[0] == "top":
-    if len(b) ==0:
-      print("-1")
-    else:
-      print(b[-1])#  Á¦Ãâ ¹øÈ£ : 79654471, ¸Þ¸ð¸® : 112008, ½Ã°£ : 172
+import sys
+input = sys.stdin.readline
+b = []
+for i in range(int(input())):
+  a =  list(input().split())
+  if a[0] == "push":
+    b.append(a[1])
+  elif a[0] == "pop":
+    if len(b) ==0:
+      print("-1")
+    else:
+      print(b.pop(-1))
+  elif a[0] == "empty":
+    if len(b) ==0:
+      print(1)
+    else:
+      print(0)
+  elif a[0] == "size":
+    print(len(b))
+  elif a[0] == "top":
+    if len(b) ==0:
+      print("-1")
+    else:
+      print(b[-1])#  ì œì¶œ ë²ˆí˜¸ : 79654471, ë©”ëª¨ë¦¬ : 112008, ì‹œê°„ : 172

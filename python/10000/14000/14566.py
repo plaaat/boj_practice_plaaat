@@ -1,29 +1,29 @@
-import sys
-
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-
-li = list(map(int,input().split()))
-
-m = float('inf')
-
-li.sort()
-
-num = 0
-
-for i in range(1,n):
-
-  tem = li[i]-li[i-1]
-
-  if tem<m:
-
-    m = tem
-
-    num = 1
-
-  elif tem == m:
-
-    num+=1
-
-print(m,num)#  Á¦Ãâ ¹øÈ£ : 79641425, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 36
+import sys
+
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+
+li = list(map(int,input().split()))
+
+m = float('inf')
+
+li.sort()
+
+num = 0
+
+for i in range(1,n):
+
+  tem = li[i]-li[i-1]
+
+  if tem<m:
+
+    m = tem
+
+    num = 1
+
+  elif tem == m:
+
+    num+=1
+
+print(m,num)#  ì œì¶œ ë²ˆí˜¸ : 79641425, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

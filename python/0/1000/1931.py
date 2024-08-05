@@ -1,18 +1,18 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-li = []
-for _ in range(n):
-  a,b = map(int,input().split())
-  li.append((b,a))
-li.sort()
-num = 0
-re = 0
-for i in li:
-  if i[1]<re:
-    continue
-  else:
-    num+=1
-    re = i[0]
-print(num)#  Á¦Ãâ ¹øÈ£ : 79646796, ¸Ş¸ğ¸® : 44580, ½Ã°£ : 228
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+li = []
+for _ in range(n):
+  a,b = map(int,input().split())
+  li.append((b,a))
+li.sort()
+num = 0
+re = 0
+for i in li:
+  if i[1]<re:
+    continue
+  else:
+    num+=1
+    re = i[0]
+print(num)#  ì œì¶œ ë²ˆí˜¸ : 79646796, ë©”ëª¨ë¦¬ : 44580, ì‹œê°„ : 228

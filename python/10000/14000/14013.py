@@ -1,14 +1,14 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-x,y = map(float,input().split())
-
-for _ in range(int(input())):
-  n,a = input().split()
-  n = float(n)
-  if n == 0:
-    print(0)
-    continue
-  if a == 'A':
-    print(y*n/x)
-  else:
-    print(x*n/y)#  Á¦Ãâ ¹øÈ£ : 79646460, ¸Þ¸ð¸® : 31120, ½Ã°£ : 284
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+x,y = map(float,input().split())
+
+for _ in range(int(input())):
+  n,a = input().split()
+  n = float(n)
+  if n == 0:
+    print(0)
+    continue
+  if a == 'A':
+    print(y*n/x)
+  else:
+    print(x*n/y)#  ì œì¶œ ë²ˆí˜¸ : 79646460, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 284

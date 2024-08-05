@@ -1,6 +1,6 @@
-n,m = map(int,input().split())
-li = list(map(int,input().split()))
-pl = []
-for i in range(n-1):
-  pl.append((li[i]*m)+(li[i+1]*m))
-print(min(pl))#  Á¦Ãâ ¹øÈ£ : 79800391, ¸Ş¸ğ¸® : 42036, ½Ã°£ : 84
+n,m = map(int,input().split())
+li = list(map(int,input().split()))
+pl = []
+for i in range(n-1):
+  pl.append((li[i]*m)+(li[i+1]*m))
+print(min(pl))#  ì œì¶œ ë²ˆí˜¸ : 79800391, ë©”ëª¨ë¦¬ : 42036, ì‹œê°„ : 84

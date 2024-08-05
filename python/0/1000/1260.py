@@ -1,36 +1,36 @@
-import sys
-from collections import deque
-sys.setrecursionlimit(10**7)
-input = lambda: sys.stdin.readline().rstrip()
-
-n,m,v = map(int,input().split())
-li = [[0]*(n+1) for _ in range(n+1)]
-for _ in range(m):
-  a,b = map(int,input().split())
-  li[a][b] = 1
-  li[b][a] = 1
-visd = [True]*(n+1)
-visb = [True]*(n+1)
-pd = []
-pb = []
-def dfs(v):
-  visd[v] = False
-  pd.append(v)
-  for i in range(1,n+1):
-    if li[v][i] == 1 and visd[i]:
-      dfs(i)
-
-def bfs(v):
-  q = deque([v])
-  visb[v] = False
-  while q:
-    v = q.popleft()
-    pb.append(v)
-    for i in range(1,n+1):
-      if li[v][i] == 1 and visb[i]:
-        q.append(i)
-        visb[i] = False
-dfs(v)
-bfs(v)
-print(*pd)
-print(*pb)#  Á¦Ãâ ¹øÈ£ : 79686275, ¸Þ¸ð¸® : 39616, ½Ã°£ : 172
+import sys
+from collections import deque
+sys.setrecursionlimit(10**7)
+input = lambda: sys.stdin.readline().rstrip()
+
+n,m,v = map(int,input().split())
+li = [[0]*(n+1) for _ in range(n+1)]
+for _ in range(m):
+  a,b = map(int,input().split())
+  li[a][b] = 1
+  li[b][a] = 1
+visd = [True]*(n+1)
+visb = [True]*(n+1)
+pd = []
+pb = []
+def dfs(v):
+  visd[v] = False
+  pd.append(v)
+  for i in range(1,n+1):
+    if li[v][i] == 1 and visd[i]:
+      dfs(i)
+
+def bfs(v):
+  q = deque([v])
+  visb[v] = False
+  while q:
+    v = q.popleft()
+    pb.append(v)
+    for i in range(1,n+1):
+      if li[v][i] == 1 and visb[i]:
+        q.append(i)
+        visb[i] = False
+dfs(v)
+bfs(v)
+print(*pd)
+print(*pb)#  ì œì¶œ ë²ˆí˜¸ : 79686275, ë©”ëª¨ë¦¬ : 39616, ì‹œê°„ : 172

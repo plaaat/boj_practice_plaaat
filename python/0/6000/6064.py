@@ -1,15 +1,15 @@
-import sys
-from collections import deque
-input = lambda:sys.stdin.readline().rstrip()
-t = int(input())
-for i in range(t):
-  m,n,x,y = map(int,input().split())
-  tf = True
-  tem = x
-  while tem<=m*n:
-    if (tem-x)%m == 0 and (tem-y)%n ==0:
-      print(tem)
-      tf = False
-      break
-    tem+=m
-  if tf:print(-1)#  Á¦Ãâ ¹øÈ£ : 79927306, ¸Þ¸ð¸® : 34016, ½Ã°£ : 4256
+import sys
+from collections import deque
+input = lambda:sys.stdin.readline().rstrip()
+t = int(input())
+for i in range(t):
+  m,n,x,y = map(int,input().split())
+  tf = True
+  tem = x
+  while tem<=m*n:
+    if (tem-x)%m == 0 and (tem-y)%n ==0:
+      print(tem)
+      tf = False
+      break
+    tem+=m
+  if tf:print(-1)#  ì œì¶œ ë²ˆí˜¸ : 79927306, ë©”ëª¨ë¦¬ : 34016, ì‹œê°„ : 4256

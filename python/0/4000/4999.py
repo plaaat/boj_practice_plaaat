@@ -1,3 +1,3 @@
-if len(input()) >= len(input()):print("go")
-
-else:print("no")#  Á¦Ãâ ¹øÈ£ : 79646301, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+if len(input()) >= len(input()):print("go")
+
+else:print("no")#  ì œì¶œ ë²ˆí˜¸ : 79646301, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

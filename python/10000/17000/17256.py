@@ -1,3 +1,3 @@
-a,b,c = map(int,input().split())
-x,y,z = map(int,input().split())
-print(x-c,y//b,z-a)#  Á¦Ãâ ¹øÈ£ : 80105595, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 44
+a,b,c = map(int,input().split())
+x,y,z = map(int,input().split())
+print(x-c,y//b,z-a)#  ì œì¶œ ë²ˆí˜¸ : 80105595, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

@@ -1,8 +1,8 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-a,b,c = map(int,input().split())
-if c%2 == 0:
-    print((a^b)^b)
-else:
-    print(a^b)#  Á¦Ãâ ¹øÈ£ : 81176531, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+a,b,c = map(int,input().split())
+if c%2 == 0:
+    print((a^b)^b)
+else:
+    print(a^b)#  ì œì¶œ ë²ˆí˜¸ : 81176531, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

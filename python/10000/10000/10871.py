@@ -1,7 +1,7 @@
-a, b = map(int,input().split())
-c = list(map(int,input().split()))
-
-for i in c:
-  if i< b:
-    print(i)
-#  Á¦Ãâ ¹øÈ£ : 79659219, ¸Ş¸ğ¸® : 32140, ½Ã°£ : 48
+a, b = map(int,input().split())
+c = list(map(int,input().split()))
+
+for i in c:
+  if i< b:
+    print(i)
+#  ì œì¶œ ë²ˆí˜¸ : 79659219, ë©”ëª¨ë¦¬ : 32140, ì‹œê°„ : 48

@@ -1,10 +1,10 @@
-n = int(input())
-sit = set()
-num = 0
-li = list(map(int,input().split()))
-for i in li:
-  if i in sit:
-    num+=1
-  else:
-    sit.add(i)
-print(num)#  Á¦Ãâ ¹øÈ£ : 79800698, ¸Ş¸ğ¸® : 31252, ½Ã°£ : 44
+n = int(input())
+sit = set()
+num = 0
+li = list(map(int,input().split()))
+for i in li:
+  if i in sit:
+    num+=1
+  else:
+    sit.add(i)
+print(num)#  ì œì¶œ ë²ˆí˜¸ : 79800698, ë©”ëª¨ë¦¬ : 31252, ì‹œê°„ : 44

@@ -1,9 +1,9 @@
-a = input().split()
-c = []
-d = 0
-for i in range(5):
-  b = int(a[i])**2
-  c.append(b)
-for i in range(5):
-  d += c[i]
-print(d%10)#  Á¦Ãâ ¹øÈ£ : 79659082, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+a = input().split()
+c = []
+d = 0
+for i in range(5):
+  b = int(a[i])**2
+  c.append(b)
+for i in range(5):
+  d += c[i]
+print(d%10)#  ì œì¶œ ë²ˆí˜¸ : 79659082, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

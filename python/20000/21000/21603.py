@@ -1,12 +1,12 @@
-n,m = map(int,input().split())
-ban = (str(m)[-1],str(2*m)[-1])
-li = []
-pn = 0
-for i in range(1,n+1):
-    i = str(i)
-    if not i[-1] in ban:
-        li.append(i)
-        pn+=1
-print(pn)
-if pn != 0:
-    print(*li)#  Á¦Ãâ ¹øÈ£ : 81176190, ¸Þ¸ð¸® : 38180, ½Ã°£ : 92
+n,m = map(int,input().split())
+ban = (str(m)[-1],str(2*m)[-1])
+li = []
+pn = 0
+for i in range(1,n+1):
+    i = str(i)
+    if not i[-1] in ban:
+        li.append(i)
+        pn+=1
+print(pn)
+if pn != 0:
+    print(*li)#  ì œì¶œ ë²ˆí˜¸ : 81176190, ë©”ëª¨ë¦¬ : 38180, ì‹œê°„ : 92

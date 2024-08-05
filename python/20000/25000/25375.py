@@ -1,11 +1,11 @@
-import sys
-input = sys.stdin.readline
-
-t = int(input())
-for _ in range(t):
-    a,b = map(int,input().split())
-    if a*2<=b and b%a == 0:
-        print(1)
-    else:
-        print(0)
-    #  Á¦Ãâ ¹øÈ£ : 81539680, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 208
+import sys
+input = sys.stdin.readline
+
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+    if a*2<=b and b%a == 0:
+        print(1)
+    else:
+        print(0)
+    #  ì œì¶œ ë²ˆí˜¸ : 81539680, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 208

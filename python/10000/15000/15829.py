@@ -1,8 +1,8 @@
-a = int(input())
-b = list(input())
-d = 0
-for i in range(a):
-  c = ord(b[i])-96
-  d+=c*((31)**(i))
-
-print(d%1234567891)#  Á¦Ãâ ¹øÈ£ : 79658658, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a = int(input())
+b = list(input())
+d = 0
+for i in range(a):
+  c = ord(b[i])-96
+  d+=c*((31)**(i))
+
+print(d%1234567891)#  ì œì¶œ ë²ˆí˜¸ : 79658658, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

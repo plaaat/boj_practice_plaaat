@@ -1,12 +1,12 @@
-a = int(input())
-c = 1
-for i in range(8):
-    b = int(input())
-    if b > a:
-        a = b
-        c = i+2
-    else:
-       continue
-print(a)
-print(c)
-#  Á¦Ãâ ¹øÈ£ : 79659050, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+a = int(input())
+c = 1
+for i in range(8):
+    b = int(input())
+    if b > a:
+        a = b
+        c = i+2
+    else:
+       continue
+print(a)
+print(c)
+#  ì œì¶œ ë²ˆí˜¸ : 79659050, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

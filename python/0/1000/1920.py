@@ -1,12 +1,12 @@
-import sys
-input = sys.stdin.readline
-a = int(input())
-b = set(input().split())
-c = int(input())
-d = input().split()
-for i in range(c):
-  if d[i] in b:
-    print(1)
-  else:
-    print(0)
-#  Á¦Ãâ ¹øÈ£ : 79654362, ¸Ş¸ğ¸® : 139752, ½Ã°£ : 188
+import sys
+input = sys.stdin.readline
+a = int(input())
+b = set(input().split())
+c = int(input())
+d = input().split()
+for i in range(c):
+  if d[i] in b:
+    print(1)
+  else:
+    print(0)
+#  ì œì¶œ ë²ˆí˜¸ : 79654362, ë©”ëª¨ë¦¬ : 139752, ì‹œê°„ : 188

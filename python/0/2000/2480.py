@@ -1,10 +1,10 @@
-a,b,c = map(int,input().split())
-if a == b == c:
-  print(a*1000+10000)
-elif a!= b and b!= c and c!= a:
-  print(max(a,b,c)*100)
-else:
-  if a == b:
-    print(a*100+1000)
-  else:
-    print(c*100+1000)#  Á¦Ãâ ¹øÈ£ : 80121649, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+a,b,c = map(int,input().split())
+if a == b == c:
+  print(a*1000+10000)
+elif a!= b and b!= c and c!= a:
+  print(max(a,b,c)*100)
+else:
+  if a == b:
+    print(a*100+1000)
+  else:
+    print(c*100+1000)#  ì œì¶œ ë²ˆí˜¸ : 80121649, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

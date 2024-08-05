@@ -1,27 +1,27 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-li = [list(map(int,input().split())) for _ in range(n)]
-bl = 0
-wh = 0
-
-def find(x,y,n):
-  global bl
-  global wh
-  a = li[x][y]
-  for i in range(x,x+n):
-    for s in range(y,y+n):
-      if li[i][s] != a:
-        find(x,y,n//2)
-        find(x,y+n//2,n//2)
-        find(x+n//2,y,n//2)
-        find(x+n//2,y+n//2,n//2)
-        return
-  if a == 0:
-    wh+=1
-  else:
-    bl+=1
-find(0,0,n)
-print(wh)
-print(bl)#  Á¦Ãâ ¹øÈ£ : 79646787, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+li = [list(map(int,input().split())) for _ in range(n)]
+bl = 0
+wh = 0
+
+def find(x,y,n):
+  global bl
+  global wh
+  a = li[x][y]
+  for i in range(x,x+n):
+    for s in range(y,y+n):
+      if li[i][s] != a:
+        find(x,y,n//2)
+        find(x,y+n//2,n//2)
+        find(x+n//2,y,n//2)
+        find(x+n//2,y+n//2,n//2)
+        return
+  if a == 0:
+    wh+=1
+  else:
+    bl+=1
+find(0,0,n)
+print(wh)
+print(bl)#  ì œì¶œ ë²ˆí˜¸ : 79646787, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

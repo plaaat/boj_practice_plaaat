@@ -1,2 +1,2 @@
-dic = {"SONGDO":"HIGHSCHOOL","CODE":"MASTER","2023":"0611",'ALGORITHM':'CONTEST'}
-print(dic[input()])#  Á¦Ãâ ¹øÈ£ : 79799800, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+dic = {"SONGDO":"HIGHSCHOOL","CODE":"MASTER","2023":"0611",'ALGORITHM':'CONTEST'}
+print(dic[input()])#  ì œì¶œ ë²ˆí˜¸ : 79799800, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

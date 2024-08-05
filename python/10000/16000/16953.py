@@ -1,22 +1,22 @@
-import sys
-from collections import deque
-input = lambda:sys.stdin.readline().rstrip()
-
-n,m = map(int,input().split())
-q = deque([[n,1]])
-vis = set()
-tf = True
-while q:
-  a,b = q.popleft()
-  if a == m:
-    print(b)
-    tf = False
-    break
-  sa = int(str(a)+"1")
-  if sa <= m and not sa in vis:
-    q.append([sa,b+1])
-    vis.add(sa)
-  if a*2 <= m and not a*2 in vis:
-    q.append([a*2,b+1])
-    vis.add(a*2)
-if tf:print(-1)#  Á¦Ãâ ¹øÈ£ : 79855686, ¸Þ¸ð¸® : 37352, ½Ã°£ : 140
+import sys
+from collections import deque
+input = lambda:sys.stdin.readline().rstrip()
+
+n,m = map(int,input().split())
+q = deque([[n,1]])
+vis = set()
+tf = True
+while q:
+  a,b = q.popleft()
+  if a == m:
+    print(b)
+    tf = False
+    break
+  sa = int(str(a)+"1")
+  if sa <= m and not sa in vis:
+    q.append([sa,b+1])
+    vis.add(sa)
+  if a*2 <= m and not a*2 in vis:
+    q.append([a*2,b+1])
+    vis.add(a*2)
+if tf:print(-1)#  ì œì¶œ ë²ˆí˜¸ : 79855686, ë©”ëª¨ë¦¬ : 37352, ì‹œê°„ : 140

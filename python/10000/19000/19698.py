@@ -1,3 +1,3 @@
-n,w,h,l = map(int,input().split())
-l = (w//l)*(h//l)
-print(min(n,l))#  Á¦Ãâ ¹øÈ£ : 81518019, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+n,w,h,l = map(int,input().split())
+l = (w//l)*(h//l)
+print(min(n,l))#  ì œì¶œ ë²ˆí˜¸ : 81518019, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

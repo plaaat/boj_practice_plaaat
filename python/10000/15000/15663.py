@@ -1,22 +1,22 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-n,m = map(int,input().split())
-nli = list(map(int,input().split()))
-nli.sort()
-vis = [False]*n
-li = []
-def dfs():
-  tem = -1
-  if len(li) == m:
-    print(*li)
-    return
-  for i in range(n):
-    if not vis[i] and tem!=nli[i]:
-      li.append(nli[i])
-      tem = nli[i]
-      vis[i] = True
-      dfs()
-      li.pop()
-      vis[i] = False 
-dfs()#  Á¦Ãâ ¹øÈ£ : 80049422, ¸Þ¸ð¸® : 31120, ½Ã°£ : 76
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+n,m = map(int,input().split())
+nli = list(map(int,input().split()))
+nli.sort()
+vis = [False]*n
+li = []
+def dfs():
+  tem = -1
+  if len(li) == m:
+    print(*li)
+    return
+  for i in range(n):
+    if not vis[i] and tem!=nli[i]:
+      li.append(nli[i])
+      tem = nli[i]
+      vis[i] = True
+      dfs()
+      li.pop()
+      vis[i] = False 
+dfs()#  ì œì¶œ ë²ˆí˜¸ : 80049422, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 76

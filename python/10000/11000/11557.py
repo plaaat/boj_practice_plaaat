@@ -1,15 +1,15 @@
-import sys
-input = sys.stdin.readline
-
-t = int(input())
-for _ in range(t):
-    n = int(input())
-    wo = ''
-    mn = -1
-    for _ in range(n):
-        a,b = input().split()
-        b = int(b)
-        if mn<b:
-            wo = a
-            mn = b
-    print(wo)#  Á¦Ãâ ¹øÈ£ : 81538684, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+import sys
+input = sys.stdin.readline
+
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    wo = ''
+    mn = -1
+    for _ in range(n):
+        a,b = input().split()
+        b = int(b)
+        if mn<b:
+            wo = a
+            mn = b
+    print(wo)#  ì œì¶œ ë²ˆí˜¸ : 81538684, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

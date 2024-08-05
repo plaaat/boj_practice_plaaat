@@ -1,12 +1,12 @@
-while True:
-  try:
-    a = map(int,input().split())
-    a = sorted(a)
-    if a[0]+a[1]+a[2] == 0:
-      break
-    elif a[0]**2+a[1]**2==a[2]**2:
-      print("right")
-    else:
-      print("wrong")
-  except:
-    break#  Á¦Ãâ ¹øÈ£ : 79658750, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+while True:
+  try:
+    a = map(int,input().split())
+    a = sorted(a)
+    if a[0]+a[1]+a[2] == 0:
+      break
+    elif a[0]**2+a[1]**2==a[2]**2:
+      print("right")
+    else:
+      print("wrong")
+  except:
+    break#  ì œì¶œ ë²ˆí˜¸ : 79658750, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
-
-print(a+b,a-b,a*b,sep='\n')#  Á¦Ãâ ¹øÈ£ : 80105388, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a = int(input())
+b = int(input())
+
+print(a+b,a-b,a*b,sep='\n')#  ì œì¶œ ë²ˆí˜¸ : 80105388, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

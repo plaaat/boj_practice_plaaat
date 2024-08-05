@@ -1,16 +1,16 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-n = int(input())
-vis = set()
-num = list(map(int,input().split()))
-pn = 0
-mn = 0
-for i in num:
-    if not i in vis:
-        vis.add(i)
-        pn+=1
-    elif i in vis:
-        pn-=1
-    mn = max(mn,pn)
-print(mn)#  Á¦Ãâ ¹øÈ£ : 81176960, ¸Þ¸ð¸® : 54036, ½Ã°£ : 176
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+n = int(input())
+vis = set()
+num = list(map(int,input().split()))
+pn = 0
+mn = 0
+for i in num:
+    if not i in vis:
+        vis.add(i)
+        pn+=1
+    elif i in vis:
+        pn-=1
+    mn = max(mn,pn)
+print(mn)#  ì œì¶œ ë²ˆí˜¸ : 81176960, ë©”ëª¨ë¦¬ : 54036, ì‹œê°„ : 176

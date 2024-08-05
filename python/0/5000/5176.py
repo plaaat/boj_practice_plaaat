@@ -1,11 +1,11 @@
-k = int(input())
-for _ in range(k):
-  p,m = map(int,input().split())
-  n = 0 
-  s = set()
-  for _ in range(p):
-    a = int(input())
-    if a in s:
-      n+=1
-    else:s.add(a)
-  print(n)#  Á¦Ãâ ¹øÈ£ : 80120700, ¸Ş¸ğ¸® : 31252, ½Ã°£ : 136
+k = int(input())
+for _ in range(k):
+  p,m = map(int,input().split())
+  n = 0 
+  s = set()
+  for _ in range(p):
+    a = int(input())
+    if a in s:
+      n+=1
+    else:s.add(a)
+  print(n)#  ì œì¶œ ë²ˆí˜¸ : 80120700, ë©”ëª¨ë¦¬ : 31252, ì‹œê°„ : 136

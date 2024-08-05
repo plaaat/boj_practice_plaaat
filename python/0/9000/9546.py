@@ -1,11 +1,11 @@
-import sys
-input = sys.stdin.readline
-
-t = int(input())
-for _ in range(t):
-    n = int(input())
-    num = 0
-    for _ in range(n):
-        num+=0.5
-        num*=2
-    print(int(num))#  Á¦Ãâ ¹øÈ£ : 81953817, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+import sys
+input = sys.stdin.readline
+
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    num = 0
+    for _ in range(n):
+        num+=0.5
+        num*=2
+    print(int(num))#  ì œì¶œ ë²ˆí˜¸ : 81953817, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

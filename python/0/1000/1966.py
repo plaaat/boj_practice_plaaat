@@ -1,22 +1,22 @@
-import sys
-input = sys.stdin.readline
-
-for _ in range(int(input())):
-  n, m = map(int, input().split())
-  li = list(map(int, input().split()))
-  cnt = 0
-  while True:
-      maxl= max(li)
-      if li[0] == maxl and m == 0:
-        print(cnt+1)
-        break
-      elif li[0] == maxl:
-        li.pop(0) 
-        cnt += 1
-        m -= 1
-      else:
-        li.append(li.pop(0))
-        if m == 0:
-          m = len(li) - 1
-        else:
-          m -= 1#  Á¦Ãâ ¹øÈ£ : 79653841, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+import sys
+input = sys.stdin.readline
+
+for _ in range(int(input())):
+  n, m = map(int, input().split())
+  li = list(map(int, input().split()))
+  cnt = 0
+  while True:
+      maxl= max(li)
+      if li[0] == maxl and m == 0:
+        print(cnt+1)
+        break
+      elif li[0] == maxl:
+        li.pop(0) 
+        cnt += 1
+        m -= 1
+      else:
+        li.append(li.pop(0))
+        if m == 0:
+          m = len(li) - 1
+        else:
+          m -= 1#  ì œì¶œ ë²ˆí˜¸ : 79653841, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

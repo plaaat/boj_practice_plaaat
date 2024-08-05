@@ -1,14 +1,14 @@
-import sys
-import math
-input = sys.stdin.readline
-a = math.factorial(int(input()))
-a = str(a)
-b = 0
-c = 0
-while True:
-  c-=1
-  if a[c] == "0":
-    b+=1
-  else:
-    break
-print(b)#  Á¦Ãâ ¹øÈ£ : 79654007, ¸Þ¸ð¸® : 33240, ½Ã°£ : 44
+import sys
+import math
+input = sys.stdin.readline
+a = math.factorial(int(input()))
+a = str(a)
+b = 0
+c = 0
+while True:
+  c-=1
+  if a[c] == "0":
+    b+=1
+  else:
+    break
+print(b)#  ì œì¶œ ë²ˆí˜¸ : 79654007, ë©”ëª¨ë¦¬ : 33240, ì‹œê°„ : 44

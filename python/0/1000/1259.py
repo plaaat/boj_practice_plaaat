@@ -1,9 +1,9 @@
-a = list(input())
-while int(a[0])>0:
-    b = int((len(a)/2))
-    c = list(reversed(a))
-    if a[:b] == c[:b]:
-      print('yes')
-    else:
-      print('no')
-    a = list(input())#  Á¦Ãâ ¹øÈ£ : 79658673, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a = list(input())
+while int(a[0])>0:
+    b = int((len(a)/2))
+    c = list(reversed(a))
+    if a[:b] == c[:b]:
+      print('yes')
+    else:
+      print('no')
+    a = list(input())#  ì œì¶œ ë²ˆí˜¸ : 79658673, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

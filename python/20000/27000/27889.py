@@ -1,2 +1,2 @@
-dic = {"NLCS": "North London Collegiate School", "BHA": "Branksome Hall Asia", "KIS": "Korea International School", "SJA": "St. Johnsbury Academy"}
-print(dic[input()])#  Á¦Ãâ ¹øÈ£ : 79684355, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+dic = {"NLCS": "North London Collegiate School", "BHA": "Branksome Hall Asia", "KIS": "Korea International School", "SJA": "St. Johnsbury Academy"}
+print(dic[input()])#  ì œì¶œ ë²ˆí˜¸ : 79684355, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

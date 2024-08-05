@@ -1,3 +1,3 @@
-a = sorted(list(str(int(input())*int(input())*int(input()))))
-for i in range(10):
-    print(a.count(str(i)))#  Á¦Ãâ ¹øÈ£ : 79658790, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+a = sorted(list(str(int(input())*int(input())*int(input()))))
+for i in range(10):
+    print(a.count(str(i)))#  ì œì¶œ ë²ˆí˜¸ : 79658790, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

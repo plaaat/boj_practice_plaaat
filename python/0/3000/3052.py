@@ -1,9 +1,9 @@
-b = []
-for i in range(10):
-  a = int(input())
-  a = a%42
-  if b.count(a)>0:
-    continue
-  else:
-    b.append(a)
-print(len(b))#  Á¦Ãâ ¹øÈ£ : 79658850, ¸Þ¸ð¸® : 31252, ½Ã°£ : 32
+b = []
+for i in range(10):
+  a = int(input())
+  a = a%42
+  if b.count(a)>0:
+    continue
+  else:
+    b.append(a)
+print(len(b))#  ì œì¶œ ë²ˆí˜¸ : 79658850, ë©”ëª¨ë¦¬ : 31252, ì‹œê°„ : 32

@@ -1,19 +1,19 @@
-import sys
-
-def v(s):
-    stack = []
-    for c in s:
-        if c == '(':
-            stack.append(c)
-        elif c == ')':
-            if not stack:
-                return 'NO'
-            stack.pop()
-    return 'YES' if not stack and s[0] != ')' and s[-1] != '(' else 'NO'
-
-i = sys.stdin.readline
-
-for _ in range(int(i().rstrip('\n'))):
-    a = i().rstrip('\n')
-    print(v(a))
-#  Á¦Ãâ ¹øÈ£ : 79654495, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+import sys
+
+def v(s):
+    stack = []
+    for c in s:
+        if c == '(':
+            stack.append(c)
+        elif c == ')':
+            if not stack:
+                return 'NO'
+            stack.pop()
+    return 'YES' if not stack and s[0] != ')' and s[-1] != '(' else 'NO'
+
+i = sys.stdin.readline
+
+for _ in range(int(i().rstrip('\n'))):
+    a = i().rstrip('\n')
+    print(v(a))
+#  ì œì¶œ ë²ˆí˜¸ : 79654495, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

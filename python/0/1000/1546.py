@@ -1,7 +1,7 @@
-a = int(input())
-b = sorted(list(map(int,input().split())))
-c = b[a-1]
-d = []
-for i in range(a):
-  d.append((b[i]/c)*100)
-print(sum(d)/a)#  Á¦Ãâ ¹øÈ£ : 79658682, ¸Ş¸ğ¸® : 31252, ½Ã°£ : 44
+a = int(input())
+b = sorted(list(map(int,input().split())))
+c = b[a-1]
+d = []
+for i in range(a):
+  d.append((b[i]/c)*100)
+print(sum(d)/a)#  ì œì¶œ ë²ˆí˜¸ : 79658682, ë©”ëª¨ë¦¬ : 31252, ì‹œê°„ : 44

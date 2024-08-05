@@ -1,17 +1,17 @@
-a = int(input())
-b = list(map(int,input().split()))
-for i in range(a):
-    if b[i] == 1:
-        a-=1
-        continue
-    else:
-     for s in range(b[i]-1):
-        s += 2
-        if b[i] == s:
-            break
-        elif b[i]%s == 0:
-            a -= 1
-            break
-        else:
-            continue
-print(a)#  Á¦Ãâ ¹øÈ£ : 79658738, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+a = int(input())
+b = list(map(int,input().split()))
+for i in range(a):
+    if b[i] == 1:
+        a-=1
+        continue
+    else:
+     for s in range(b[i]-1):
+        s += 2
+        if b[i] == s:
+            break
+        elif b[i]%s == 0:
+            a -= 1
+            break
+        else:
+            continue
+print(a)#  ì œì¶œ ë²ˆí˜¸ : 79658738, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

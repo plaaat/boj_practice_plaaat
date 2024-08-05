@@ -1,3 +1,3 @@
-a = int(input())
-b = list(map(int,input().split()))
-print(min(b),max(b))#  Á¦Ãâ ¹øÈ£ : 79658963, ¸Þ¸ð¸® : 153832, ½Ã°£ : 396
+a = int(input())
+b = list(map(int,input().split()))
+print(min(b),max(b))#  ì œì¶œ ë²ˆí˜¸ : 79658963, ë©”ëª¨ë¦¬ : 153832, ì‹œê°„ : 396

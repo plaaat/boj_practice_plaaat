@@ -1,17 +1,17 @@
-import sys
-input = sys.stdin.readline
-
-a=0
-n,m = map(int,input().split())
-k = set()
-uk = []
-for _ in range(n):
-  k.add(input().strip())
-for _ in range(m):
-  wo = input().strip()
-  if wo in k:
-    uk.append(wo)
-    a+=1
-print(a)
-uk.sort()
-print(*uk, sep='\n')#  Á¦Ãâ ¹øÈ£ : 79653754, ¸Þ¸ð¸® : 37264, ½Ã°£ : 76
+import sys
+input = sys.stdin.readline
+
+a=0
+n,m = map(int,input().split())
+k = set()
+uk = []
+for _ in range(n):
+  k.add(input().strip())
+for _ in range(m):
+  wo = input().strip()
+  if wo in k:
+    uk.append(wo)
+    a+=1
+print(a)
+uk.sort()
+print(*uk, sep='\n')#  ì œì¶œ ë²ˆí˜¸ : 79653754, ë©”ëª¨ë¦¬ : 37264, ì‹œê°„ : 76

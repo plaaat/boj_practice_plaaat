@@ -1,5 +1,5 @@
-li = list(map(int,input().split()))
-x,y,r = map(int,input().split())
-if x in li:
-  print(li.index(x)+1)
-else:print(0)#  Á¦Ãâ ¹øÈ£ : 80120071, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+li = list(map(int,input().split()))
+x,y,r = map(int,input().split())
+if x in li:
+  print(li.index(x)+1)
+else:print(0)#  ì œì¶œ ë²ˆí˜¸ : 80120071, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

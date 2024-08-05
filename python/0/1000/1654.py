@@ -1,21 +1,21 @@
-import sys
-input = sys.stdin.readline
-
-n, k = map(int, input().split())
-li = sorted([int(input()) for _ in range(n)])
-
-a = 1 
-b = li[-1]
-
-while a <= b:
-    m = (a + b) // 2
-    c = 0
-    for num in li:
-        c += num // m
-    if c >= k:
-        a = m+1
-        des = m
-    else:
-        b = m-1
-
-print(des)#  Á¦Ãâ ¹øÈ£ : 79653800, ¸Þ¸ð¸® : 31120, ½Ã°£ : 84
+import sys
+input = sys.stdin.readline
+
+n, k = map(int, input().split())
+li = sorted([int(input()) for _ in range(n)])
+
+a = 1 
+b = li[-1]
+
+while a <= b:
+    m = (a + b) // 2
+    c = 0
+    for num in li:
+        c += num // m
+    if c >= k:
+        a = m+1
+        des = m
+    else:
+        b = m-1
+
+print(des)#  ì œì¶œ ë²ˆí˜¸ : 79653800, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 84

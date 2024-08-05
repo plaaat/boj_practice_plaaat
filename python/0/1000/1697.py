@@ -1,25 +1,25 @@
-import sys
-from collections import deque
-sys.setrecursionlimit(10**7)
-input = lambda: sys.stdin.readline().rstrip()
-
-n,m = map(int,input().split())
-num = 100000
-visit = [0]*100001
-q = deque()
-q.append(n)
-while q:
-  t = q.popleft()
-  if t == m:
-    print(visit[t])
-    break
-  else:
-    if 0<=t-1<=num and not visit[t-1]:
-      visit[t-1] = visit[t]+1
-      q.append(t-1)
-    if 0<=t+1<=num and not visit[t+1]:
-      visit[t+1] = visit[t]+1
-      q.append(t+1)
-    if 0<=t*2<=num and not visit[t*2]:
-      visit[t*2] = visit[t]+1
-      q.append(t*2)#  Á¦Ãâ ¹øÈ£ : 79646751, ¸Þ¸ð¸® : 35300, ½Ã°£ : 156
+import sys
+from collections import deque
+sys.setrecursionlimit(10**7)
+input = lambda: sys.stdin.readline().rstrip()
+
+n,m = map(int,input().split())
+num = 100000
+visit = [0]*100001
+q = deque()
+q.append(n)
+while q:
+  t = q.popleft()
+  if t == m:
+    print(visit[t])
+    break
+  else:
+    if 0<=t-1<=num and not visit[t-1]:
+      visit[t-1] = visit[t]+1
+      q.append(t-1)
+    if 0<=t+1<=num and not visit[t+1]:
+      visit[t+1] = visit[t]+1
+      q.append(t+1)
+    if 0<=t*2<=num and not visit[t*2]:
+      visit[t*2] = visit[t]+1
+      q.append(t*2)#  ì œì¶œ ë²ˆí˜¸ : 79646751, ë©”ëª¨ë¦¬ : 35300, ì‹œê°„ : 156

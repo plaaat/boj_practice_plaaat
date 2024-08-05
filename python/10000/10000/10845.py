@@ -1,30 +1,30 @@
-from collections import deque
-import sys
-input = sys.stdin.readline
-a = deque()
-for _ in range(int(input())):
-  b = deque(input().split())
-  if len(b) == 2:
-    a.append(b[1])
-  elif b[0] == "pop":
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a.popleft())
-  elif b[0] == "size":
-    print(len(a))
-  elif b[0] == "empty":
-    if len(a) == 0:
-      print(1)
-    else:
-      print(0)
-  elif b[0] == "front":
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a[0])
-  elif b[0] == "back":
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a[-1])#  Á¦Ãâ ¹øÈ£ : 79654376, ¸Þ¸ð¸® : 115472, ½Ã°£ : 204
+from collections import deque
+import sys
+input = sys.stdin.readline
+a = deque()
+for _ in range(int(input())):
+  b = deque(input().split())
+  if len(b) == 2:
+    a.append(b[1])
+  elif b[0] == "pop":
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a.popleft())
+  elif b[0] == "size":
+    print(len(a))
+  elif b[0] == "empty":
+    if len(a) == 0:
+      print(1)
+    else:
+      print(0)
+  elif b[0] == "front":
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a[0])
+  elif b[0] == "back":
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a[-1])#  ì œì¶œ ë²ˆí˜¸ : 79654376, ë©”ëª¨ë¦¬ : 115472, ì‹œê°„ : 204

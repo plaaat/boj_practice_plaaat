@@ -1,9 +1,9 @@
-import sys
-input = sys.stdin.readline
-li = []
-for _ in range(int(input())):
-  a,b = map(int,input().split())
-  li.append((b,a))
-li.sort()
-for i in range(len(li)):
-  print(li[i][1],li[i][0])#  Á¦Ãâ ¹øÈ£ : 79654075, ¸Þ¸ð¸® : 44580, ½Ã°£ : 320
+import sys
+input = sys.stdin.readline
+li = []
+for _ in range(int(input())):
+  a,b = map(int,input().split())
+  li.append((b,a))
+li.sort()
+for i in range(len(li)):
+  print(li[i][1],li[i][0])#  ì œì¶œ ë²ˆí˜¸ : 79654075, ë©”ëª¨ë¦¬ : 44580, ì‹œê°„ : 320

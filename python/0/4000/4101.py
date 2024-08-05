@@ -1,7 +1,7 @@
-while True:
-    a,b = map(int,input().split())
-    if a == 0 and b == 0:break
-    elif a>b:
-      print('Yes')
-    else:
-      print('No')#  Á¦Ãâ ¹øÈ£ : 79646700, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+while True:
+    a,b = map(int,input().split())
+    if a == 0 and b == 0:break
+    elif a>b:
+      print('Yes')
+    else:
+      print('No')#  ì œì¶œ ë²ˆí˜¸ : 79646700, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

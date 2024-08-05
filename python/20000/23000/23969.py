@@ -1,23 +1,23 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-def bubble_sort(arr,n,m):
-    num = 0
-    for i in range(n - 1, 0, -1):
-        swapped = False
-        for j in range(i):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                num+=1
-                swapped = True
-            if num == m:
-                print(*arr)
-                return
-        if not swapped:
-            break
-    if not swapped:
-        print(-1)
-n,m = map(int,input().split())
-li = list(map(int,input().split()))
-bubble_sort(li,n,m)
-#  Á¦Ãâ ¹øÈ£ : 80832283, ¸Þ¸ð¸® : 110700, ½Ã°£ : 364
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+def bubble_sort(arr,n,m):
+    num = 0
+    for i in range(n - 1, 0, -1):
+        swapped = False
+        for j in range(i):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                num+=1
+                swapped = True
+            if num == m:
+                print(*arr)
+                return
+        if not swapped:
+            break
+    if not swapped:
+        print(-1)
+n,m = map(int,input().split())
+li = list(map(int,input().split()))
+bubble_sort(li,n,m)
+#  ì œì¶œ ë²ˆí˜¸ : 80832283, ë©”ëª¨ë¦¬ : 110700, ì‹œê°„ : 364

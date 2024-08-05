@@ -1,22 +1,22 @@
-import sys
-input=lambda:sys.stdin.readline().rstrip()
-
-for _ in range(int(input())):
-  n = int(input())
-  dic = {}
-  li = set()
-  for _ in range(n):
-    a,b = map(str,input().split())
-    li.add(b)
-    if not b in dic:
-      dic[b] = 1
-    else:
-      dic[b]+=1
-  a = 1
-  if len(li) == 1:
-    print(dic[li.pop()])
-  else:
-    for i in range(len(li)):
-      num = dic[li.pop()]
-      a*=(num+1)
-    print(a-1)#  Á¦Ãâ ¹øÈ£ : 79649971, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+import sys
+input=lambda:sys.stdin.readline().rstrip()
+
+for _ in range(int(input())):
+  n = int(input())
+  dic = {}
+  li = set()
+  for _ in range(n):
+    a,b = map(str,input().split())
+    li.add(b)
+    if not b in dic:
+      dic[b] = 1
+    else:
+      dic[b]+=1
+  a = 1
+  if len(li) == 1:
+    print(dic[li.pop()])
+  else:
+    for i in range(len(li)):
+      num = dic[li.pop()]
+      a*=(num+1)
+    print(a-1)#  ì œì¶œ ë²ˆí˜¸ : 79649971, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

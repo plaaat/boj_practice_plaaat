@@ -1,4 +1,4 @@
-x = int(input())
-for i in range(0, x, 1):
-  a, b = map(int, input().split())
-  print(a+b)#  Á¦Ãâ ¹øÈ£ : 79659300, ¸Þ¸ð¸® : 31120, ½Ã°£ : 56
+x = int(input())
+for i in range(0, x, 1):
+  a, b = map(int, input().split())
+  print(a+b)#  ì œì¶œ ë²ˆí˜¸ : 79659300, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 56

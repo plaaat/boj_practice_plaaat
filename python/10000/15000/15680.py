@@ -1,5 +1,5 @@
-n = int(input())
-if n == 0:
-    print('YONSEI')
-else:
-    print('Leading the Way to the Future')#  Á¦Ãâ ¹øÈ£ : 80438163, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+n = int(input())
+if n == 0:
+    print('YONSEI')
+else:
+    print('Leading the Way to the Future')#  ì œì¶œ ë²ˆí˜¸ : 80438163, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

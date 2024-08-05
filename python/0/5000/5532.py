@@ -1,16 +1,16 @@
-l = int(input())
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-if a % c == 0 :
-  value = a // c
-else :
-  value = (a // c) + 1
-
-if b % d == 0 :
-  value2 = b // d
-else :
-  value2 = (b // d) + 1
-
-print(l - max(value, value2))#  Á¦Ãâ ¹øÈ£ : 81716225, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+l = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if a % c == 0 :
+  value = a // c
+else :
+  value = (a // c) + 1
+
+if b % d == 0 :
+  value2 = b // d
+else :
+  value2 = (b // d) + 1
+
+print(l - max(value, value2))#  ì œì¶œ ë²ˆí˜¸ : 81716225, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

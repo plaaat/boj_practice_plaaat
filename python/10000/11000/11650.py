@@ -1,19 +1,19 @@
-import sys
-
-input = sys.stdin.readline
-
-x = []
-
-m = int(input())
-
-for _ in range(m):
-
-  a,b = map(int,input().split())
-
-  x.append([a,b])
-
-x.sort()
-
-for i in range(m):
-
-  print(*x[i])#  Á¦Ãâ ¹øÈ£ : 79658430, ¸Þ¸ð¸® : 122664, ½Ã°£ : 372
+import sys
+
+input = sys.stdin.readline
+
+x = []
+
+m = int(input())
+
+for _ in range(m):
+
+  a,b = map(int,input().split())
+
+  x.append([a,b])
+
+x.sort()
+
+for i in range(m):
+
+  print(*x[i])#  ì œì¶œ ë²ˆí˜¸ : 79658430, ë©”ëª¨ë¦¬ : 122664, ì‹œê°„ : 372

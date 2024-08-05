@@ -1,17 +1,17 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-li = [0]*(n+1)
-
-if n == 1:
-  print(1)
-elif n == 2:
-  print(2)
-else:
-  li[1] = 1
-  li[2] = 2
-  for i in range(3,n+1):
-    li[i] = li[i-2]+li[i-1]
-  print(li[n]%10007)
-  #  Á¦Ãâ ¹øÈ£ : 79649708, ¸Þ¸ð¸® : 31252, ½Ã°£ : 44
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+li = [0]*(n+1)
+
+if n == 1:
+  print(1)
+elif n == 2:
+  print(2)
+else:
+  li[1] = 1
+  li[2] = 2
+  for i in range(3,n+1):
+    li[i] = li[i-2]+li[i-1]
+  print(li[n]%10007)
+  #  ì œì¶œ ë²ˆí˜¸ : 79649708, ë©”ëª¨ë¦¬ : 31252, ì‹œê°„ : 44

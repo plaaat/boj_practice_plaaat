@@ -1,3 +1,3 @@
-import math
-a,b = map(int,input().split())
-print(int(math.factorial(a)/(math.factorial(b)*math.factorial(a-b))))#  Á¦Ãâ ¹øÈ£ : 79658453, ¸Þ¸ð¸® : 108080, ½Ã°£ : 96
+import math
+a,b = map(int,input().split())
+print(int(math.factorial(a)/(math.factorial(b)*math.factorial(a-b))))#  ì œì¶œ ë²ˆí˜¸ : 79658453, ë©”ëª¨ë¦¬ : 108080, ì‹œê°„ : 96

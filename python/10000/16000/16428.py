@@ -1,8 +1,8 @@
-a,b = map(int,input().split())
-n,m = divmod(a,b)
-if a !=0 and m<0:
-  print(n+1)
-  print(m-b)
-else:
-  print(n)
-  print(m)#  Á¦Ãâ ¹øÈ£ : 79800609, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 48
+a,b = map(int,input().split())
+n,m = divmod(a,b)
+if a !=0 and m<0:
+  print(n+1)
+  print(m-b)
+else:
+  print(n)
+  print(m)#  ì œì¶œ ë²ˆí˜¸ : 79800609, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

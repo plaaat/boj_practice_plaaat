@@ -1,5 +1,5 @@
-a = []
-for _ in range(3):
-    a.append(int(input()))
-a.sort()
-print(a[1])#  Á¦Ãâ ¹øÈ£ : 79646093, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+a = []
+for _ in range(3):
+    a.append(int(input()))
+a.sort()
+print(a[1])#  ì œì¶œ ë²ˆí˜¸ : 79646093, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

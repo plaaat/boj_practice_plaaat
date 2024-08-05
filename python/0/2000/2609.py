@@ -1,9 +1,9 @@
-a,b = map(int,sorted(input().split()))
-c = a*b
-if b>a: a,b=b,a
-
-while b!=0:
-  a=a%b
-  a,b=b,a
-print(a)
-print(int(c/a))#  Á¦Ãâ ¹øÈ£ : 79658643, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a,b = map(int,sorted(input().split()))
+c = a*b
+if b>a: a,b=b,a
+
+while b!=0:
+  a=a%b
+  a,b=b,a
+print(a)
+print(int(c/a))#  ì œì¶œ ë²ˆí˜¸ : 79658643, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

@@ -1,18 +1,18 @@
-a,b = map(int, input().split())
-c = []
-d = []
-l = []
-for i in range(a):
-    e = list(map(int,input().split()))
-    c.append(e)
-
-for i in range(a):
-    f = list(map(int,input().split()))
-    d.append(f)
-
-for i in range(a):
-  for s in range(b):
-    h = c[i][s]+d[i][s]
-    l.append(h)
-  print(*l)
-  l = []#  Á¦Ãâ ¹øÈ£ : 79659062, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 52
+a,b = map(int, input().split())
+c = []
+d = []
+l = []
+for i in range(a):
+    e = list(map(int,input().split()))
+    c.append(e)
+
+for i in range(a):
+    f = list(map(int,input().split()))
+    d.append(f)
+
+for i in range(a):
+  for s in range(b):
+    h = c[i][s]+d[i][s]
+    l.append(h)
+  print(*l)
+  l = []#  ì œì¶œ ë²ˆí˜¸ : 79659062, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 52

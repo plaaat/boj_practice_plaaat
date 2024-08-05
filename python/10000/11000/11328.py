@@ -1,17 +1,17 @@
-t = int(input())
-
-for _ in range(t):
-
-  a,b = input().split()
-
-  a = list(a)
-
-  for i in list(b):
-
-    try:a.remove(i)
-
-    except:break
-
-  if len(a) == 0:print("Possible")
-
-  else:print("Impossible")#  Á¦Ãâ ¹øÈ£ : 79641582, ¸Þ¸ð¸® : 31120, ½Ã°£ : 432
+t = int(input())
+
+for _ in range(t):
+
+  a,b = input().split()
+
+  a = list(a)
+
+  for i in list(b):
+
+    try:a.remove(i)
+
+    except:break
+
+  if len(a) == 0:print("Possible")
+
+  else:print("Impossible")#  ì œì¶œ ë²ˆí˜¸ : 79641582, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 432

@@ -1,10 +1,10 @@
-a = int(input())
-for i in range(a):
-    b,c,d = map(int,input().split())
-    e = d%b
-    if e == 0:
-      f = d//b
-      e = b
-    else:
-      f = d//b+1
-    print(e*100+f)#  Á¦Ãâ ¹øÈ£ : 79658860, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+a = int(input())
+for i in range(a):
+    b,c,d = map(int,input().split())
+    e = d%b
+    if e == 0:
+      f = d//b
+      e = b
+    else:
+      f = d//b+1
+    print(e*100+f)#  ì œì¶œ ë²ˆí˜¸ : 79658860, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

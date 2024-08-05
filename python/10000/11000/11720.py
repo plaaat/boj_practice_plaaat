@@ -1,6 +1,6 @@
-a = int(input())
-b = input()
-c = 0
-for i in range(a):
-  c += int(b[i])
-print(c)#  Á¦Ãâ ¹øÈ£ : 79658912, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a = int(input())
+b = input()
+c = 0
+for i in range(a):
+  c += int(b[i])
+print(c)#  ì œì¶œ ë²ˆí˜¸ : 79658912, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

@@ -1,5 +1,5 @@
-A,B,C = map(int,input().split())
-print((A+B)%C)
-print(((A%C) + (B%C))%C)
-print((A*B)%C)
-print(((A%C) * (B%C))%C) #  Á¦Ãâ ¹øÈ£ : 81382731, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+A,B,C = map(int,input().split())
+print((A+B)%C)
+print(((A%C) + (B%C))%C)
+print((A*B)%C)
+print(((A%C) * (B%C))%C) #  ì œì¶œ ë²ˆí˜¸ : 81382731, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

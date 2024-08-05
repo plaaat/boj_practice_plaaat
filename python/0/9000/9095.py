@@ -1,24 +1,26 @@
-import sys
-input=lambda:sys.stdin.readline().rstrip()
-
-def noga(n):
-  global a
-  if n <= 0:
-    a+=1
-    return
-  elif n-2 < 0:
-    a+=1
-    return
-  elif n-3 < 0:
-    a+=2
-    return
-  else:
-    noga(n-3)
-    noga(n-2)
-    return noga(n-1)
-for _ in range(int(input())):
-  li = {}
-  n = int(input())
-  a = 0
-  noga(n)
-  print(a)#  Á¦Ãâ ¹øÈ£ : 79649940, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+import sys
+input=lambda:sys.stdin.readline().rstrip()
+
+def noga(n):
+  global a
+  if n <= 0:
+    a+=1
+    return
+  elif n-2 < 0:
+    a+=1
+    return
+  elif n-3 < 0:
+    a+=2
+    return
+  else:
+    noga(n-3)
+    noga(n-2)
+    return noga(n-1)
+for _ in range(int(input())):
+  li = {}
+  n = int(input())
+  a = 0
+  noga(n)
+  print(a)
+  
+#  ì œì¶œ ë²ˆí˜¸ : 79649940, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

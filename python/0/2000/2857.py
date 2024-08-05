@@ -1,9 +1,9 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-tf = True
-for s in range(1,6):
-    wo = input()
-    if 'FBI' in wo:
-        print(s, end = ' ')
-        tf = False
-if tf:print('HE GOT AWAY!')#  Á¦Ãâ ¹øÈ£ : 80830817, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+tf = True
+for s in range(1,6):
+    wo = input()
+    if 'FBI' in wo:
+        print(s, end = ' ')
+        tf = False
+if tf:print('HE GOT AWAY!')#  ì œì¶œ ë²ˆí˜¸ : 80830817, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

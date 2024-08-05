@@ -1,15 +1,15 @@
-import sys
-from collections import deque
-input = lambda:sys.stdin.readline().rstrip()
-
-n = input()
-mn = n.split('-')
-pn = 0
-if n[0] == '-':
-  pn -= sum(map(int,mn[0].split('+')))
-else:
-  pn += sum(map(int,mn[0].split('+')))
-for i in mn[1:]:
-  i = sum(map(int,i.split('+')))
-  pn -= i
-print(pn)#  Á¦Ãâ ¹øÈ£ : 79900239, ¸Þ¸ð¸® : 34016, ½Ã°£ : 60
+import sys
+from collections import deque
+input = lambda:sys.stdin.readline().rstrip()
+
+n = input()
+mn = n.split('-')
+pn = 0
+if n[0] == '-':
+  pn -= sum(map(int,mn[0].split('+')))
+else:
+  pn += sum(map(int,mn[0].split('+')))
+for i in mn[1:]:
+  i = sum(map(int,i.split('+')))
+  pn -= i
+print(pn)#  ì œì¶œ ë²ˆí˜¸ : 79900239, ë©”ëª¨ë¦¬ : 34016, ì‹œê°„ : 60

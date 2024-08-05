@@ -1,12 +1,12 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-mem = [0]*(n+1)
-for i in range(2,n+1):
-  mem[i] = mem[i-1]+1
-  if i%3 ==0:
-    mem[i] = min(mem[i],mem[i//3]+1)
-  if i%2 == 0:
-    mem[i] = min(mem[i],mem[i//2]+1)
-print(mem[n])#  Á¦Ãâ ¹øÈ£ : 79649907, ¸Þ¸ð¸® : 38932, ½Ã°£ : 544
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+mem = [0]*(n+1)
+for i in range(2,n+1):
+  mem[i] = mem[i-1]+1
+  if i%3 ==0:
+    mem[i] = min(mem[i],mem[i//3]+1)
+  if i%2 == 0:
+    mem[i] = min(mem[i],mem[i//2]+1)
+print(mem[n])#  ì œì¶œ ë²ˆí˜¸ : 79649907, ë©”ëª¨ë¦¬ : 38932, ì‹œê°„ : 544

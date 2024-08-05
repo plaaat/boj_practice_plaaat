@@ -1,13 +1,13 @@
-import sys
-from collections import deque
-input = lambda:sys.stdin.readline().rstrip()
-
-n = int(input())
-li = list(map(int,input().split()))
-vis = [1]*(n+1)
-
-for i in range(n):
-    for s in range(i):
-        if li[i]>li[s]:
-            vis[i] = max(vis[i],vis[s]+1)
-print(max(vis))#  Á¦Ãâ ¹øÈ£ : 80017808, ¸Þ¸ð¸® : 34016, ½Ã°£ : 176
+import sys
+from collections import deque
+input = lambda:sys.stdin.readline().rstrip()
+
+n = int(input())
+li = list(map(int,input().split()))
+vis = [1]*(n+1)
+
+for i in range(n):
+    for s in range(i):
+        if li[i]>li[s]:
+            vis[i] = max(vis[i],vis[s]+1)
+print(max(vis))#  ì œì¶œ ë²ˆí˜¸ : 80017808, ë©”ëª¨ë¦¬ : 34016, ì‹œê°„ : 176

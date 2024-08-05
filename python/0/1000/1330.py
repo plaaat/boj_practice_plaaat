@@ -1,9 +1,9 @@
-val = input().split()
-a = int(val[0])
-b = int(val[1])
-if (a > b):
-    print(">")
-if (a == b):
-    print("==")
-if (a < b):
-    print("<")#  Á¦Ãâ ¹øÈ£ : 79659426, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+val = input().split()
+a = int(val[0])
+b = int(val[1])
+if (a > b):
+    print(">")
+if (a == b):
+    print("==")
+if (a < b):
+    print("<")#  ì œì¶œ ë²ˆí˜¸ : 79659426, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

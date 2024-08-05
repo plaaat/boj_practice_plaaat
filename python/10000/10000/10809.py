@@ -1,8 +1,8 @@
-a = list(input())
-b = []
-for s in range(26):
-  if a.count(chr(97+s)) > 0:
-    b.append(a.index(chr(97+s)))
-  else:
-    b.append(-1)
-print(*b)#  Á¦Ãâ ¹øÈ£ : 79658799, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+a = list(input())
+b = []
+for s in range(26):
+  if a.count(chr(97+s)) > 0:
+    b.append(a.index(chr(97+s)))
+  else:
+    b.append(-1)
+print(*b)#  ì œì¶œ ë²ˆí˜¸ : 79658799, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

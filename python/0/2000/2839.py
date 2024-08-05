@@ -1,16 +1,16 @@
-n = int(input())
-a = 0
-if n == 4 or n == 7:
-  print("-1")
-elif n == 3 or n == 5:
-  print("1")
-else:
-  while True:
-    if n == 6 or n == 8 or n == 10:
-      print(a+2)
-      break
-    elif n == 7 or n == 9:
-      print(a+3)
-      break
-    a+=1
-    n-=5#  Á¦Ãâ ¹øÈ£ : 79658571, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+n = int(input())
+a = 0
+if n == 4 or n == 7:
+  print("-1")
+elif n == 3 or n == 5:
+  print("1")
+else:
+  while True:
+    if n == 6 or n == 8 or n == 10:
+      print(a+2)
+      break
+    elif n == 7 or n == 9:
+      print(a+3)
+      break
+    a+=1
+    n-=5#  ì œì¶œ ë²ˆí˜¸ : 79658571, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

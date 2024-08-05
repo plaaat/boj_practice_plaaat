@@ -1,21 +1,21 @@
-import sys
-
-input = lambda:sys.stdin.readline().rstrip()
-
-n = int(input())
-
-li = list(map(int,input().split()))
-
-t,p = map(int,input().split())
-
-a = 0
-
-for i in li:
-
-    a+=(i+t-1)//t
-
-print(a)
-
-b = n//p
-
-print(b,n-(b*p))#  Á¦Ãâ ¹øÈ£ : 79646247, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 36
+import sys
+
+input = lambda:sys.stdin.readline().rstrip()
+
+n = int(input())
+
+li = list(map(int,input().split()))
+
+t,p = map(int,input().split())
+
+a = 0
+
+for i in li:
+
+    a+=(i+t-1)//t
+
+print(a)
+
+b = n//p
+
+print(b,n-(b*p))#  ì œì¶œ ë²ˆí˜¸ : 79646247, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

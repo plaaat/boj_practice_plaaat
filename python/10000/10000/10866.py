@@ -1,42 +1,42 @@
-import sys
-input = sys.stdin.readline
-a = []
-def deque():
-  b = input().split()
-  if b.count("push_front") == 1:
-    if len(a) == 0:
-      a.append(b[1])
-    else:
-      a.insert(0,b[1])
-  elif b.count('push_back') == 1:
-    a.append(b[1])
-  elif b.count('pop_front') == 1:
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a.pop(0))
-  elif b.count('pop_back') == 1:
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a.pop())
-  elif b.count('size') == 1:
-    print(len(a))
-  elif b.count('empty') == 1:
-    if len(a) == 0:
-      print("1")
-    else:
-      print("0")
-  elif b.count('front') == 1:
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a[0])
-  elif b.count('back') == 1:
-    if len(a) == 0:
-      print("-1")
-    else:
-      print(a[len(a)-1])
- 
-for _ in range (int(input())):
-  deque()#  Á¦Ãâ ¹øÈ£ : 79658445, ¸Þ¸ð¸® : 113076, ½Ã°£ : 176
+import sys
+input = sys.stdin.readline
+a = []
+def deque():
+  b = input().split()
+  if b.count("push_front") == 1:
+    if len(a) == 0:
+      a.append(b[1])
+    else:
+      a.insert(0,b[1])
+  elif b.count('push_back') == 1:
+    a.append(b[1])
+  elif b.count('pop_front') == 1:
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a.pop(0))
+  elif b.count('pop_back') == 1:
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a.pop())
+  elif b.count('size') == 1:
+    print(len(a))
+  elif b.count('empty') == 1:
+    if len(a) == 0:
+      print("1")
+    else:
+      print("0")
+  elif b.count('front') == 1:
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a[0])
+  elif b.count('back') == 1:
+    if len(a) == 0:
+      print("-1")
+    else:
+      print(a[len(a)-1])
+ 
+for _ in range (int(input())):
+  deque()#  ì œì¶œ ë²ˆí˜¸ : 79658445, ë©”ëª¨ë¦¬ : 113076, ì‹œê°„ : 176

@@ -1,17 +1,17 @@
-t,m,s = map(int,input().split())
-n = int(input())
-nt = 0
-nm,ns = divmod(n,60)
-if nm != 0:nt,nm = divmod(nm,60)
-if s+ns>=60:
-    nm+=1
-    s = s+ns-60
-    ns = 0
-if m+nm >= 60:
-    nt+=1
-    m = m+nm-60
-    nm = 0
-if t+nt>=24:
-    t = (t+nt)%24
-    nt = 0
-print(t+nt,m+nm,s+ns)#  Á¦Ãâ ¹øÈ£ : 80809627, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+t,m,s = map(int,input().split())
+n = int(input())
+nt = 0
+nm,ns = divmod(n,60)
+if nm != 0:nt,nm = divmod(nm,60)
+if s+ns>=60:
+    nm+=1
+    s = s+ns-60
+    ns = 0
+if m+nm >= 60:
+    nt+=1
+    m = m+nm-60
+    nm = 0
+if t+nt>=24:
+    t = (t+nt)%24
+    nt = 0
+print(t+nt,m+nm,s+ns)#  ì œì¶œ ë²ˆí˜¸ : 80809627, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

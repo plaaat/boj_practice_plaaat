@@ -1,5 +1,5 @@
-import sys
-input = sys.stdin.readline
-
-a,b,c = map(int,input().split())
-print(pow(a,b,c))#  Á¦Ãâ ¹øÈ£ : 80165484, ¸Þ¸ð¸® : 31120, ½Ã°£ : 32
+import sys
+input = sys.stdin.readline
+
+a,b,c = map(int,input().split())
+print(pow(a,b,c))#  ì œì¶œ ë²ˆí˜¸ : 80165484, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 32

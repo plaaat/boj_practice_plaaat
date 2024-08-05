@@ -1,4 +1,4 @@
-t = int(input())
-for _ in range(t):
-    a,b = map(int,input().split())
-    print(b*2-a,a-b)#  Á¦Ãâ ¹øÈ£ : 81836849, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+t = int(input())
+for _ in range(t):
+    a,b = map(int,input().split())
+    print(b*2-a,a-b)#  ì œì¶œ ë²ˆí˜¸ : 81836849, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

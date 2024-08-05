@@ -1,14 +1,14 @@
-a = input()
-d,e = 0,0
-for i in range(0,26):
-  b = a.count(chr(i+65))
-  c = a.count(chr(i+97))
-  if b+c > d:
-    d = b+c
-    e = i
-  elif b+c == d:
-    e = 9999
-if e == 9999:
-  print("?")
-else:
-  print(chr(e+65))#  Á¦Ãâ ¹øÈ£ : 79658778, ¸Þ¸ð¸® : 33076, ½Ã°£ : 76
+a = input()
+d,e = 0,0
+for i in range(0,26):
+  b = a.count(chr(i+65))
+  c = a.count(chr(i+97))
+  if b+c > d:
+    d = b+c
+    e = i
+  elif b+c == d:
+    e = 9999
+if e == 9999:
+  print("?")
+else:
+  print(chr(e+65))#  ì œì¶œ ë²ˆí˜¸ : 79658778, ë©”ëª¨ë¦¬ : 33076, ì‹œê°„ : 76

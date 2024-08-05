@@ -1,4 +1,4 @@
-t = int(input())
-for i in range(t):
-    a,b = map(int,input().split())
-    print('Case #{0}: {1}'.format(i+1,a+b))#  Á¦Ãâ ¹øÈ£ : 80965045, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+t = int(input())
+for i in range(t):
+    a,b = map(int,input().split())
+    print('Case #{0}: {1}'.format(i+1,a+b))#  ì œì¶œ ë²ˆí˜¸ : 80965045, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,8 +1,8 @@
-n = 0
-for i in range(5):
-  a = int(input())
-  if a<40:
-    n+=40
-  else:
-    n+=a
-print(n//5)#  Á¦Ãâ ¹øÈ£ : 80125921, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+n = 0
+for i in range(5):
+  a = int(input())
+  if a<40:
+    n+=40
+  else:
+    n+=a
+print(n//5)#  ì œì¶œ ë²ˆí˜¸ : 80125921, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

@@ -1,10 +1,10 @@
-t = int(input())
-a1,b1 = 100,100
-for _ in range(t):
-    a,b = map(int,input().split())
-    if a>b:
-        b1-=a
-    elif a<b:
-        a1-=b
-print(a1,b1,sep="\n")
-#  Á¦Ãâ ¹øÈ£ : 79684974, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+t = int(input())
+a1,b1 = 100,100
+for _ in range(t):
+    a,b = map(int,input().split())
+    if a>b:
+        b1-=a
+    elif a<b:
+        a1-=b
+print(a1,b1,sep="\n")
+#  ì œì¶œ ë²ˆí˜¸ : 79684974, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

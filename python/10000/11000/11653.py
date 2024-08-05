@@ -1,11 +1,11 @@
-n = int(input())
-
-if n == 1:
-    print()
-
-for i in range(2, n+1):
-    if n % i == 0:
-    	while n % i == 0:
-            print(i)
-            n /= i
-#  Á¦Ãâ ¹øÈ£ : 82002559, ¸Þ¸ð¸® : 31120, ½Ã°£ : 1224
+n = int(input())
+
+if n == 1:
+    print()
+
+for i in range(2, n+1):
+    if n % i == 0:
+    	while n % i == 0:
+            print(i)
+            n /= i
+#  ì œì¶œ ë²ˆí˜¸ : 82002559, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 1224

@@ -1,12 +1,12 @@
-import sys
-input = sys.stdin.readline
-
-n = int(input())
-a = 0
-nl = list(map(int,input().split()))
-nl.sort()
-n+=1
-for i in nl:
-  n-=1
-  a+=i*n
-print(a)#  Á¦Ãâ ¹øÈ£ : 79650094, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+a = 0
+nl = list(map(int,input().split()))
+nl.sort()
+n+=1
+for i in nl:
+  n-=1
+  a+=i*n
+print(a)#  ì œì¶œ ë²ˆí˜¸ : 79650094, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

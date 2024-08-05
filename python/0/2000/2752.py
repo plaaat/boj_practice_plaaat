@@ -1,1 +1,1 @@
-print(*sorted(list(map(int,input().split()))))#  Á¦Ãâ ¹øÈ£ : 81118648, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+print(*sorted(list(map(int,input().split()))))#  ì œì¶œ ë²ˆí˜¸ : 81118648, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

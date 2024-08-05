@@ -1,11 +1,11 @@
-import sys
-input = lambda: sys.stdin.readline().rstrip()
-
-n = int(input())
-li = list(map(int,input().split()))
-sli = sorted(set(li))
-pli = {val:idx for idx,val in enumerate(sli)}
-pr = []
-for i in li:
-  pr.append(pli[i])
-print(*pr)#  Á¦Ãâ ¹øÈ£ : 79646821, ¸Ş¸ğ¸® : 144340, ½Ã°£ : 1940
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
+n = int(input())
+li = list(map(int,input().split()))
+sli = sorted(set(li))
+pli = {val:idx for idx,val in enumerate(sli)}
+pr = []
+for i in li:
+  pr.append(pli[i])
+print(*pr)#  ì œì¶œ ë²ˆí˜¸ : 79646821, ë©”ëª¨ë¦¬ : 144340, ì‹œê°„ : 1940

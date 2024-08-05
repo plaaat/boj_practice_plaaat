@@ -1,5 +1,5 @@
-while True:
-    try:
-        print(input())
-    except:
-        break#  Á¦Ãâ ¹øÈ£ : 79659171, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+while True:
+    try:
+        print(input())
+    except:
+        break#  ì œì¶œ ë²ˆí˜¸ : 79659171, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

@@ -1,17 +1,17 @@
-import sys
-input = sys.stdin.readline
-
-n,k = map(int,input().split())
-li = [int(input()) for _ in range(n)]
-a,b = 0,0
-li.reverse()
-for i in li:
-  if a+i == k:
-    b+=1
-    break
-  elif a+i < k:
-    b+=((k-a)//i)
-    a+=(i*((k-a)//i))
-  else:
-    continue
-print(b)#  Á¦Ãâ ¹øÈ£ : 79650112, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 44
+import sys
+input = sys.stdin.readline
+
+n,k = map(int,input().split())
+li = [int(input()) for _ in range(n)]
+a,b = 0,0
+li.reverse()
+for i in li:
+  if a+i == k:
+    b+=1
+    break
+  elif a+i < k:
+    b+=((k-a)//i)
+    a+=(i*((k-a)//i))
+  else:
+    continue
+print(b)#  ì œì¶œ ë²ˆí˜¸ : 79650112, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

@@ -1,12 +1,12 @@
-import sys
-input = sys.stdin.readline
-
-n,m = map(int,input().split())
-p = {}
-for i in range(n):
-  na = input().strip()
-  p[str(i+1)] = na
-  p[na] = str(i+1)
-
-for _ in range(m):
-  print(p.get(input().strip()))#  Á¦Ãâ ¹øÈ£ : 79650137, ¸Ş¸ğ¸® : 60816, ½Ã°£ : 276
+import sys
+input = sys.stdin.readline
+
+n,m = map(int,input().split())
+p = {}
+for i in range(n):
+  na = input().strip()
+  p[str(i+1)] = na
+  p[na] = str(i+1)
+
+for _ in range(m):
+  print(p.get(input().strip()))#  ì œì¶œ ë²ˆí˜¸ : 79650137, ë©”ëª¨ë¦¬ : 60816, ì‹œê°„ : 276

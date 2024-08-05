@@ -1,13 +1,13 @@
-def pl():
-  a, b = map(int, input().split())
-  x = a+b
-  if(x > 0):
-    y = 1
-  else:
-    y = 0
-  for i in range(0, int(y), 1):
-    print(x)
-    a = 0
-    b = 0
-    pl()
-pl()#  Á¦Ãâ ¹øÈ£ : 79659287, ¸Þ¸ð¸® : 31120, ½Ã°£ : 48
+def pl():
+  a, b = map(int, input().split())
+  x = a+b
+  if(x > 0):
+    y = 1
+  else:
+    y = 0
+  for i in range(0, int(y), 1):
+    print(x)
+    a = 0
+    b = 0
+    pl()
+pl()#  ì œì¶œ ë²ˆí˜¸ : 79659287, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 48

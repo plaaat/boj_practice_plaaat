@@ -1,19 +1,19 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-li = ['January','February','March','May','April','June','July']
-while True:
-  n,w = input().split()
-  n = int(n)
-  if n == 0 and w == '#':
-    break
-  if w == 'August' and n == 4:
-    print('Happy birthday')
-  elif w == 'February' and n == 29:
-    print('Unlucky')
-  elif w in li:
-    print('Yes')
-  elif w == 'August' and n < 4:
-    print('Yes')
-  else:
-    print('No')
-  #  Á¦Ãâ ¹øÈ£ : 79646448, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+li = ['January','February','March','May','April','June','July']
+while True:
+  n,w = input().split()
+  n = int(n)
+  if n == 0 and w == '#':
+    break
+  if w == 'August' and n == 4:
+    print('Happy birthday')
+  elif w == 'February' and n == 29:
+    print('Unlucky')
+  elif w in li:
+    print('Yes')
+  elif w == 'August' and n < 4:
+    print('Yes')
+  else:
+    print('No')
+  #  ì œì¶œ ë²ˆí˜¸ : 79646448, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

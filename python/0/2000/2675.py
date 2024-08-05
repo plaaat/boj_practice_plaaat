@@ -1,11 +1,11 @@
-x = int(input())
-while x:
-  try:
-    a, b = input().split()
-    c = []
-    for i in range(len(b)):
-      for s in range(int(a)):
-        c.append(b[i])
-    print(*c, sep='')
-  except:
-    break#  Á¦Ãâ ¹øÈ£ : 79658997, ¸Þ¸ð¸® : 31120, ½Ã°£ : 40
+x = int(input())
+while x:
+  try:
+    a, b = input().split()
+    c = []
+    for i in range(len(b)):
+      for s in range(int(a)):
+        c.append(b[i])
+    print(*c, sep='')
+  except:
+    break#  ì œì¶œ ë²ˆí˜¸ : 79658997, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

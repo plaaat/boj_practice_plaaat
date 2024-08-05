@@ -1,16 +1,16 @@
-import sys
-input=lambda:sys.stdin.readline().rstrip()
-
-n,m = map(int, input().split())
-a = 0
-li = tuple(map(int,input().split()))
-pl = [0]
-for i in li:
-  a+=i
-  pl.append(a)
-for _ in range(n):
-  try:
-    i,j = map(int,input().split())
-    print(pl[j]-pl[i-1])
-  except:
-    break#  Á¦Ãâ ¹øÈ£ : 79650012, ¸Ş¸ğ¸® : 41240, ½Ã°£ : 280
+import sys
+input=lambda:sys.stdin.readline().rstrip()
+
+n,m = map(int, input().split())
+a = 0
+li = tuple(map(int,input().split()))
+pl = [0]
+for i in li:
+  a+=i
+  pl.append(a)
+for _ in range(n):
+  try:
+    i,j = map(int,input().split())
+    print(pl[j]-pl[i-1])
+  except:
+    break#  ì œì¶œ ë²ˆí˜¸ : 79650012, ë©”ëª¨ë¦¬ : 41240, ì‹œê°„ : 280

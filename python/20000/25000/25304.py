@@ -1,10 +1,10 @@
-tn = int(input())
-n = 0
-t = int(input())
-for _ in range(t):
-  a,b = map(int,input().split())
-  n+=a*b
-if n == tn:
-  print('Yes')
-else:
-  print('No')#  Á¦Ãâ ¹øÈ£ : 80125767, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+tn = int(input())
+n = 0
+t = int(input())
+for _ in range(t):
+  a,b = map(int,input().split())
+  n+=a*b
+if n == tn:
+  print('Yes')
+else:
+  print('No')#  ì œì¶œ ë²ˆí˜¸ : 80125767, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

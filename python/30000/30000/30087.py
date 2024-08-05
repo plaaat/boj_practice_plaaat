@@ -1,4 +1,4 @@
-dic = {'Algorithm':204,'DataAnalysis':207,'ArtificialIntelligence':302,'CyberSecurity':'B101','Network':303,'Startup':501,'TestStrategy':105}
-n = int(input())
-for _ in range(n):
-  print(dic[input()])#  Á¦Ãâ ¹øÈ£ : 79800059, ¸Þ¸ð¸® : 31120, ½Ã°£ : 36
+dic = {'Algorithm':204,'DataAnalysis':207,'ArtificialIntelligence':302,'CyberSecurity':'B101','Network':303,'Startup':501,'TestStrategy':105}
+n = int(input())
+for _ in range(n):
+  print(dic[input()])#  ì œì¶œ ë²ˆí˜¸ : 79800059, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 36

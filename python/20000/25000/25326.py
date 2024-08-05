@@ -1,15 +1,15 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-n,m = map(int,input().split())
-li = []
-for _ in range(n):
-  li.append((input().split()))
-for _ in range(m):
-  a,b,c = input().split()
-  num = 0
-  for s,f,d in li:
-    if s == a or a == '-':
-      if f == b or b == '-':
-        if d == c or c =='-':
-          num+=1
-  print(num)#  Á¦Ãâ ¹øÈ£ : 79646423, ¸Þ¸ð¸® : 31120, ½Ã°£ : 212
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+n,m = map(int,input().split())
+li = []
+for _ in range(n):
+  li.append((input().split()))
+for _ in range(m):
+  a,b,c = input().split()
+  num = 0
+  for s,f,d in li:
+    if s == a or a == '-':
+      if f == b or b == '-':
+        if d == c or c =='-':
+          num+=1
+  print(num)#  ì œì¶œ ë²ˆí˜¸ : 79646423, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 212

@@ -1,3 +1,3 @@
-n = int(input())
-a,b,c = map(int,input().split())
-print(min(a,n)+min(b,n)+min(c,n))#  Á¦Ãâ ¹øÈ£ : 81175938, ¸Ş¸ğ¸® : 31120, ½Ã°£ : 40
+n = int(input())
+a,b,c = map(int,input().split())
+print(min(a,n)+min(b,n)+min(c,n))#  ì œì¶œ ë²ˆí˜¸ : 81175938, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 40

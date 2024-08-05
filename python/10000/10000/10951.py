@@ -1,6 +1,6 @@
-while True:
-  try:
-    a, b = map(int, input().split())
-    print(a+b)
-  except:
-    break#  Á¦Ãâ ¹øÈ£ : 79659245, ¸Þ¸ð¸® : 31120, ½Ã°£ : 52
+while True:
+  try:
+    a, b = map(int, input().split())
+    print(a+b)
+  except:
+    break#  ì œì¶œ ë²ˆí˜¸ : 79659245, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 52

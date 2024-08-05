@@ -1,7 +1,7 @@
-import sys
-import math
-input = lambda: sys.stdin.readline().rstrip()
-
-r = int(input())
-print((r**2)*math.pi)
-print(2*r*r)#  Á¦Ãâ ¹øÈ£ : 79641521, ¸Þ¸ð¸® : 33240, ½Ã°£ : 40
+import sys
+import math
+input = lambda: sys.stdin.readline().rstrip()
+
+r = int(input())
+print((r**2)*math.pi)
+print(2*r*r)#  ì œì¶œ ë²ˆí˜¸ : 79641521, ë©”ëª¨ë¦¬ : 33240, ì‹œê°„ : 40

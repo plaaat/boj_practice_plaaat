@@ -1,15 +1,15 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-
-n = int(input())
-li = [[0,0,0]]
-for _ in range(n):
-    li.append(list(map(int,input().split())))
-pn = [[0,0,0] for _ in range(n+1)]
-
-for i in range(n+1):
-    if i ==0:continue
-    pn[i][0] = min(pn[i - 1][1], pn[i - 1][2]) + li[i][0]
-    pn[i][1] = min(pn[i - 1][0], pn[i - 1][2]) + li[i][1]
-    pn[i][2] = min(pn[i - 1][0], pn[i - 1][1]) + li[i][2]
-print(min(pn[-1]))#  Á¦Ãâ ¹øÈ£ : 80018959, ¸Þ¸ð¸® : 31120, ½Ã°£ : 44
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+
+n = int(input())
+li = [[0,0,0]]
+for _ in range(n):
+    li.append(list(map(int,input().split())))
+pn = [[0,0,0] for _ in range(n+1)]
+
+for i in range(n+1):
+    if i ==0:continue
+    pn[i][0] = min(pn[i - 1][1], pn[i - 1][2]) + li[i][0]
+    pn[i][1] = min(pn[i - 1][0], pn[i - 1][2]) + li[i][1]
+    pn[i][2] = min(pn[i - 1][0], pn[i - 1][1]) + li[i][2]
+print(min(pn[-1]))#  ì œì¶œ ë²ˆí˜¸ : 80018959, ë©”ëª¨ë¦¬ : 31120, ì‹œê°„ : 44

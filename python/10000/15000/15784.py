@@ -1,16 +1,16 @@
-import sys
-input = lambda:sys.stdin.readline().rstrip()
-n,a,b = map(int,input().split())
-li = [list(map(int,input().split())) for _ in range(n)]
-x = li[a-1][b-1]
-if x != max(li[a-1]):
-  print('ANGRY')
-else:
-  tf = True
-  for i in li:
-    if x < i[b-1]:
-      print('ANGRY')
-      tf = False
-      break
-  if tf:
-    print('HAPPY')#  Á¦Ãâ ¹øÈ£ : 79646492, ¸Þ¸ð¸® : 66600, ½Ã°£ : 236
+import sys
+input = lambda:sys.stdin.readline().rstrip()
+n,a,b = map(int,input().split())
+li = [list(map(int,input().split())) for _ in range(n)]
+x = li[a-1][b-1]
+if x != max(li[a-1]):
+  print('ANGRY')
+else:
+  tf = True
+  for i in li:
+    if x < i[b-1]:
+      print('ANGRY')
+      tf = False
+      break
+  if tf:
+    print('HAPPY')#  ì œì¶œ ë²ˆí˜¸ : 79646492, ë©”ëª¨ë¦¬ : 66600, ì‹œê°„ : 236
