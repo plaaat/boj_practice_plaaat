@@ -1,0 +1,6 @@
+entrypoint = "main.py"
+modules = ["Python-3.12", "python-3.10"]
+run = "main.py"
+
+[deployment]
+run = ["sh", "-c", "main.py"]
