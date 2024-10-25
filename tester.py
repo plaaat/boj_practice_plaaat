@@ -18,9 +18,9 @@ with open('tstdir/input.txt') as f:
 
 with open('tstdir/tst.py','w') as f:
     f.write('import time\n')
-    f.write('starttimertimer = time.perf_counter_ns()\n')
+    f.write('starttimertimer = time.perf_counter()\n')
     f.write(con)
     f.write('\n')
-    f.write('print(f"Time : {(time.perf_counter_ns()-starttimertimer)*1e-05}ms")')
+    f.write('print(f"Time : {(time.perf_counter()-starttimertimer)*1000}ms")')
 
 sp.run(['python3','tstdir/tst.py'],input=inp,text=True)
