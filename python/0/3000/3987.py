@@ -1,47 +1,48 @@
 import sys
+sys.setrecursionlimit(10**6)
 input = lambda: sys.stdin.readline().rstrip()
 
 n,m = map(int,input().split())
-
-vis = {}
-vist = {}
-maps = []
-for _ in range(n):
-    maps.append(input())
+maps = [input() for _ in range(n)]
 sx,sy = map(int,input().split())
 
-res,mn = '',-1
+dw = 'URDL'
+dd = ((0,-1),(1,0),(0,1),(-1,0))
 
-def dfs(x,y,d,t,st):
-    global vis
-    global vist
-    dx,dy = d
-    if maps[y][x] == 'C':
-        return t
-    if (x,y) in vist:
-        if d in vist[(x,y)]:
-            if vist[(x,y)][d] >= t:
-                return -1
-            else:
-                vist[(x,y)][d] = t
-        if st in vis[(x,y)]:
-            if d in vis[(x,y)][st]:
-                vist[(x,y)][d] = float('inf')
-                return float('inf')
-            else:
-                vis[(x,y)][st][d] = t
-    else:
-        vist[(x,y)] = {d:t}
-        vis[(x,y)][st] = {d:t}
-    if maps[y][x] == '.':
-        if y+dy == -1 or y + dy == n:
-            return t
-        if x + dx == -1 or x + dx == m:
-            return t
-        return dfs(x + dx, y + dy,d,t,st)
+h1 = (1,0,3,2)
+h2 = (3,2,1,0)
+
+sx -= 1
+sy -= 1
+mt,md = -1,''
+for i in range(4):
+    x,y,d,t = sx,sy,i,1
+    while True:
+        x += dd[d][0]
+        y += dd[d][1]
+        if (not (0 <= x < m and 0 <= y < n)) or maps[y][x] == 'C':
+            break
+
+        if maps[y][x] == '/':
+            d = h1[d]
+        elif maps[y][x] == '\\':
+            d = h2[d]
+        t += 1
+
+        if (x,y,d) == (sx,sy,i):
+            t = float('inf')
+            break
     
-    if maps[y][x] == '/':
-        if d == (-1,0):
-            return dfs(x + dx,y + dy,(0,-1),t + 1,st)
-        elif d == (1,0):
-            return '?'
+    if t == float('inf'):
+        mt = 'Voyager'
+        md = dw[i]
+        break
+    else:
+        if mt < t:
+            mt = t
+            md = dw[i]
+
+print(md)
+print(mt)
+
+# 제출 번호 : 91837968, 메모리 : 32412, 시간 : 688
